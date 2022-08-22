@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,9 +18,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about',function(){
+    return "หน้าเกี่ยวกับเรา";
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/admin/index',[HomeController::class, 'admin'])->name('admin');
 //ของจารเดียร์
 // Route::view('/', 'promotepage.home')->name('home');
 // Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
