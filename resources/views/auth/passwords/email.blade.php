@@ -1,47 +1,38 @@
-@extends('layouts.app')
-
+@extends('layouts.admin.master')
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
+    <form class="login100-form validate-form"method="POST" action="{{ route('password.email') }}">
+        @csrf
+        <span class="login100-form-title p-b-49">
+            Reset Password
+        </span>
+        
+        <div class="wrap-input100 validate-input m-b-23" data-validate = "Username is reauired">
+            <span class="label-input100">Username</span>
+            <input class="input100" type="text" name="email" placeholder="Username">
+            <span class="focus-input100" data-symbol="&#xf206;"></span>
+        </div>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    <form method="POST" action="{{ route('password.email') }}">
-                        @csrf
-
-                        <div class="row mb-3">
-                            <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Email Address') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Send Password Reset Link') }}
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+        <div class="text-right p-t-8 p-b-31">
+            <a href="{{ route('password.request') }}">
+                
+            </a>
+        </div>
+        
+        <div class="container-login100-form-btn">
+            <div class="wrap-login100-form-btn">
+                <div class="login100-form-bgbtn"></div>
+                <button class="login100-form-btn">
+                    Send Password Reset Link
+                </button>
             </div>
         </div>
-    </div>
-</div>
+
+        <div class="txt1 text-center p-t-30 p-b-20">
+            <span>
+                
+            </span>
+        </div>
+          </div>
+        </div>
+    </form>
 @endsection
