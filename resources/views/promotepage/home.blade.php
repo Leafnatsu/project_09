@@ -32,11 +32,11 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_01.jpg" alt="">
+                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/banner_img_01.jpg') }}  " alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>Zay</b> eCommerce</h1>
+                                <h1 class="h1 text-success"><b>Doracha</b> <b>Tea</b></h1>
                                 <h3 class="h2">Tiny and Perfect eCommerce Template</h3>
                                 <p>
                                     Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
@@ -54,7 +54,7 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_02.jpg" alt="">
+                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/banner_img_02.jpg') }} " alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
@@ -73,7 +73,7 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_03.jpg" alt="">
+                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/banner_img_3.jpg') }} " alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
@@ -103,28 +103,27 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <h1 class="h1">Categories of The Month</h1>
+                <B class="h1"><B>Type of Menu</B>
                 <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    ประเภทเมนูเครื่องดื่มในร้าน
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">Watches</h5>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Bubble Tea</h5>
+                <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Tea</h2>
+                <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Green Tea</h2>
+                <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
         </div>
         </section>
@@ -132,19 +131,19 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">Watches</h5>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Soda</h5>
+                <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Coffee</h2>
+                <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Snack</h2>
+                <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
         </div>
         </section>
