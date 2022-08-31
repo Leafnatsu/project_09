@@ -20,7 +20,7 @@
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="DoraCha.php">
+            <a class="navbar-brand text-success logo h1 align-self-center" href="/">
             DoraCha
             </a>
 
@@ -32,19 +32,19 @@
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php">Home</a>
+                            <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
+                            <a class="nav-link" href="/about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shop.php">Menu</a>
+                            <a class="nav-link" href="/menu">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.php">Contact</a>
+                            <a class="nav-link" href="/contract">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Info.php">Info</a>
+                            <a class="nav-link" href="/info">Info</a>
                         </li>
                     </ul>
                 </div>

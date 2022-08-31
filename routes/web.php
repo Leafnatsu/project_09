@@ -24,8 +24,11 @@ use Illuminate\Support\Facades\Route;
 
 
 //Start Promote//
- Route::view('/', 'promotepage.home')->name('home');
-
+ Route::view('/', 'promotepage.home')->name('promotepage.home');
+ Route::view('/about', 'promotepage.about')->name('promotepage.about');
+ Route::view('/menu', 'promotepage.menu')->name('promotepage.menu');
+ Route::view('/contract', 'promotepage.contract')->name('promotepage.contract');
+ Route::view('/info', 'promotepage.info')->name('promotepage.info');
 
 //End Promote//
 

@@ -142,7 +142,7 @@
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
                 <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Snack</h2>
+                <h2 class="h5 text-center mt-3 mb-3">Snacka\</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
         </div>
