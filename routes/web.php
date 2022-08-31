@@ -14,19 +14,29 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // ของจารสา
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/about',function(){
-    return "หน้าเกี่ยวกับเรา";
-});
+// Route::get('/about',function(){
+//     return "หน้าเกี่ยวกับเรา";
+// });
+
+
+//Start Promote//
+ Route::view('/', 'promotepage.home')->name('home');
+
+
+//End Promote//
 
 Auth::routes();
 
+
+
+
+//Start Admin//
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/admin/index',[HomeController::class, 'admin'])->name('admin');
-//ของจารเดียร์
-// Route::view('/', 'promotepage.home')->name('home');
-// Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
+//End Admin//
+
+

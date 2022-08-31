@@ -27,9 +27,9 @@
                     {{ config('app.name', 'Laravel') }}
                 </a>
 
-                <a class="navbar-brand" href="{{ route('admin') }}">
+                {{-- <a class="navbar-brand" href="{{ route('admin') }}">
                     Admin
-                </button>
+                </button> --}}
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
