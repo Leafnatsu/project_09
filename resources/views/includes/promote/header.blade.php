@@ -32,19 +32,17 @@
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
+                            <a class="nav-link" href="/">หน้าหลัก</a>
+                        </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
+                            <a class="nav-link" href="/menu">เมนู</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/menu">Menu</a>
+                            <a class="nav-link" href="/contract">ติดต่อ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contract">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/info">Info</a>
+                            <a class="nav-link" href="/info">การจัดส่ง</a>
                         </li>
                     </ul>
                 </div>
@@ -66,7 +64,7 @@
                     </a>
                     <a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">32</span>
                     </a>
                  </div>
             </div>
