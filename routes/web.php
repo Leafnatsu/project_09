@@ -38,7 +38,7 @@ Auth::routes();
 
 
 //Start Admin//
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
 
 //End Admin//
 
