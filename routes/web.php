@@ -37,6 +37,9 @@ Auth::routes();
 //Start Admin//
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
 
+
+Route::get('/admin/product', [App\Http\Controllers\ProductController::class, 'index'])->name('adminpage.adminproduct');
+
 //End Admin//
 
 
