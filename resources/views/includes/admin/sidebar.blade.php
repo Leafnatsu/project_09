@@ -3,7 +3,7 @@
 
         <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
             <div class="app-brand demo">
-              <a href="index.html" class="app-brand-link">
+              <a href="/home" class="app-brand-link">
                 <span class="app-brand-logo demo">
                   <svg
                     width="25"
@@ -72,7 +72,7 @@
             <ul class="menu-inner py-1">
               <!-- Dashboard -->
               <li class="menu-item active">
-                <a href="index.html" class="menu-link">
+                <a href="/home" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-home-circle"></i>
                   <div data-i18n="Analytics">Dashboard</div>
                 </a>
@@ -87,21 +87,21 @@
                 </a>
               </li> 
               <li class="menu-item">
-                <a href="cards-basic.html" class="menu-link">
+                <a href="/admin/about" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
-                  <div data-i18n="Basic">Cards</div>
+                  <div data-i18n="Basic">About</div>
                 </a>
               </li> 
               <li class="menu-item">
-                <a href="cards-basic.html" class="menu-link">
+                <a href="/admin/menu" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
-                  <div data-i18n="Basic">Cards</div>
+                  <div data-i18n="Basic">Menu</div>
                 </a>
               </li> 
               <li class="menu-item">
-                <a href="cards-basic.html" class="menu-link">
+                <a href="/admin/contect" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
-                  <div data-i18n="Basic">Cards</div>
+                  <div data-i18n="Basic">contect</div>
                 </a>
               </li> 
               <li class="menu-item">

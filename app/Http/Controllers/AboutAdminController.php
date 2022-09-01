@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class AboutAdminController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,7 +23,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('adminpage.product.adminproduct');
+        return view('adminpage.about.adminabout');
     }
 
     public function admin(){
