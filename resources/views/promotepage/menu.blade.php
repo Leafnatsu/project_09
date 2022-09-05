@@ -58,19 +58,7 @@
  
         <div class="col-lg-9">
             <div class="row">
-                <div class="col-md-6">
-                    <ul class="list-inline shop-top-menu pb-3 pt-1">
-                        <li class="list-inline-item">
-                            <a class="h3 text-dark text-decoration-none mr-3" href="#">ร้อน</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="h3 text-dark text-decoration-none mr-3" href="#">ปั่น</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="h3 text-dark text-decoration-none" href="#">เย็น</a>
-                        </li>
-                    </ul>
-                </div>
+                
                 <div class="col-md-6 pb-3">
                     <div class="d-flex">
                         <select class="form-control">
@@ -85,7 +73,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src=" {{ asset('template/promote/assets/img/shop_01.jpg') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -122,7 +110,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/shop_02.jpg') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_02.jpg">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -159,7 +147,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/shop_03.jpg') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_03.jpg">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -196,7 +184,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/shop_04.jpg') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_04.jpg">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -233,7 +221,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/shop_05.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_05.jpg">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -270,7 +258,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/shop_06.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_06.jpg">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -307,7 +295,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/shop_07.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_07.jpg">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -344,7 +332,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/shop_08.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -381,7 +369,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/shop_09.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_09.jpg">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -447,54 +435,54 @@
                                 <div class="carousel-item active">
                                     <div class="row">
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_01.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_02.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_03.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_04.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <!--End First slide-->
 
                                 <!--Second slide-->
-                                <div class="carousel-item active">
+                                <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_01.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_02.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_03.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_04.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
                                         </div>
                                     </div>
                                 </div>
                                 <!--End Second slide-->
 
                                 <!--Third slide-->
-                                <div class="carousel-item active">
+                                <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_01.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_02.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_03.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/brand_04.png')}}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
                                         </div>
                                     </div>
                                 </div>
