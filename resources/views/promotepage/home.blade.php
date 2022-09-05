@@ -39,8 +39,7 @@
                                 <h1 class="h1 text-success"><b>Doracha</b> <b>Tea</b></h1>
                                 <h3 class="h2">Tiny and Perfect eCommerce Template</h3>
                                 <p>
-                                    Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
-                                    This template is 100% free provided by <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">TemplateMo</a> website. 
+                                    Doracha <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">TemplateMo</a> website. 
                                     Image credits go to <a rel="sponsored" class="text-success" href="https://stories.freepik.com/" target="_blank">Freepik Stories</a>,
                                     <a rel="sponsored" class="text-success" href="https://unsplash.com/" target="_blank">Unsplash</a> and
                                     <a rel="sponsored" class="text-success" href="https://icons8.com/" target="_blank">Icons 8</a>.
@@ -167,7 +166,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_01.jpg" class="card-img-top" alt="...">
+                            <img src="./assets/img/feature_prod_01.jpg" class="card-img-top" alt="..."> ื 
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
