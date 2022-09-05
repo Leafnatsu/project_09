@@ -44,6 +44,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/admin/product', [App\Http\Controllers\ProductController::class, 'index'])->name('adminpage.product.adminproduct');
 
+Route::view('/admin/product/from', 'adminpage.product.from-admin-product')->name('adminpage.product.from');
 
 Route::get('/admin/about', [App\Http\Controllers\AboutAdminController::class, 'index'])->name('adminpage.about.adminabout');
 
@@ -51,7 +52,12 @@ Route::view('/admin/about/from', 'adminpage.about.from-admin-about')->name('admi
 
 Route::get('/admin/menu', [App\Http\Controllers\MenuAdminController::class, 'index'])->name('adminpage.menu.adminmenu');
 
+Route::view('/admin/menu/from', 'adminpage.menu.from-admin-menu')->name('adminpage.menu.from');
+
 Route::get('/admin/contect', [App\Http\Controllers\ContectAdminController::class, 'index'])->name('adminpage.contect.admincontect');
+
+Route::get('/admin/contect/from', [App\Http\Controllers\From\FromContectAdminController::class, 'index'])->name('adminpage.contect.from');
+
 
 
 //End Admin//
