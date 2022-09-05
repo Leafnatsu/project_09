@@ -29,7 +29,7 @@ use Illuminate\Support\Facades\Route;
  Route::view('/menu', 'promotepage.menu')->name('promotepage.menu');
  Route::view('/contract', 'promotepage.contract')->name('promotepage.contract');
  Route::view('/info', 'promotepage.info')->name('promotepage.info');
- Route::view('/login', 'auth.login')->name('promotepage.info');
+ Route::view('/login', 'auth.login')->name('promotepage.login');
 
 //End Promote//
 
@@ -46,6 +46,8 @@ Route::get('/admin/product', [App\Http\Controllers\ProductController::class, 'in
 
 
 Route::get('/admin/about', [App\Http\Controllers\AboutAdminController::class, 'index'])->name('adminpage.about.adminabout');
+
+Route::view('/admin/about/from', 'adminpage.about.from-admin-about')->name('adminpage.about.from');
 
 Route::get('/admin/menu', [App\Http\Controllers\MenuAdminController::class, 'index'])->name('adminpage.menu.adminmenu');
 

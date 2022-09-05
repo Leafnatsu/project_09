@@ -5,7 +5,7 @@
 
     <div class="container-xxl flex-grow-1 container-p-y">
       <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Tables /</span> Basic Tables</h4>
-   <a href="" class="btn btn-primary"> 
+   <a href="/admin/about/from" class="btn btn-primary"> 
      
     ปุ่มเพิ่ม
 
