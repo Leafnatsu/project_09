@@ -29,6 +29,7 @@ use Illuminate\Support\Facades\Route;
  Route::view('/menu', 'promotepage.menu')->name('promotepage.menu');
  Route::view('/contract', 'promotepage.contract')->name('promotepage.contract');
  Route::view('/info', 'promotepage.info')->name('promotepage.info');
+ Route::view('/login', 'auth.login')->name('promotepage.info');
 
 //End Promote//
 
