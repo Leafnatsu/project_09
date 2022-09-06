@@ -101,7 +101,7 @@
               <li class="menu-item">
                 <a href="/admin/contect" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
-                  <div data-i18n="Basic">contect</div>
+                  <div data-i18n="Basic">Contect</div>
                 </a>
               </li>
               

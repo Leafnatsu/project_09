@@ -10,7 +10,11 @@
     ปุ่มเพิ่ม
 
       </a>
-
+      <a href="/admin/product/edit" class="btn btn-warning"> 
+     
+        แก้ไข
+      
+          </a>
       <!-- Basic Bootstrap Table -->
       <div class="card">
         <h5 class="card-header">Table Basic</h5>
