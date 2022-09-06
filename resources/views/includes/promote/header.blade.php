@@ -42,7 +42,7 @@
                             <a class="nav-link" href="/contract">ติดต่อ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/info">การจัดส่ง</a>
+                            <a class="nav-link" href="/info">ที่ตั้งร้านค้า</a>
                         </li>
                     </ul>
                 </div>
