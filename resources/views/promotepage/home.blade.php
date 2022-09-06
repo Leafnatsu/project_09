@@ -32,17 +32,17 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/banner_img_01.jpg') }}  " alt="">
+                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/BBTEA.jpg') }}  " alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>Doracha</b> <b>Tea</b></h1>
-                                <h3 class="h2">Tiny and Perfect eCommerce Template</h3>
+                                <h1 class="h1 text-success"><b>Bubble</b> <b>Tea</b></h1>
+                                <h3 class="h2"></h3>
                                 <p>
-                                    Doracha <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">TemplateMo</a> website. 
-                                    Image credits go to <a rel="sponsored" class="text-success" href="https://stories.freepik.com/" target="_blank">Freepik Stories</a>,
-                                    <a rel="sponsored" class="text-success" href="https://unsplash.com/" target="_blank">Unsplash</a> and
-                                    <a rel="sponsored" class="text-success" href="https://icons8.com/" target="_blank">Icons 8</a>.
+                                    Doracha <a rel="sponsored"   target="_blank">TemplateMo</a> website. 
+                                    Image credits go to <a rel="sponsored"  target="_blank">Freepik Stories</a>,
+                                    <a rel="sponsored"  target="_blank">Unsplash</a> and
+                                    <a rel="sponsored"  target="_blank">Icons 8</a>.
                                 </p>
                             </div>
                         </div>
@@ -53,11 +53,11 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/banner_img_02.jpg') }} " alt="">
+                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/icedgreentealatte.jpg') }} " alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1">Proident occaecat</h1>
+                                <h1 class="h1 text-success"><b> Green Tea Latte</b></h1>
                                 <h3 class="h2">Aliquip ex ea commodo consequat</h3>
                                 <p>
                                     You are permitted to use this Zay CSS template for your commercial websites. 
@@ -72,7 +72,7 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/banner_img_3.jpg') }} " alt="">
+                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
@@ -110,18 +110,20 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <br>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEA.jpg') }} " class="rounded-circle img-fluid border" height="600"> </a>
                 <h5 class="text-center mt-3 mb-3">Bubble Tea</h5>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/tea.jpg') }} " class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Tea</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Green Tea</h2>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/icedgreentealatte.jpg') }} " class="rounded-circle img-fluid border"></a>
+                <br>    
+                <h2 class="h5 text-center mt-3 mb-4     ">Green Tea</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
         </div>
@@ -166,7 +168,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}" class="card-img-top" alt="..."> 
+                            <img src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}" class="card-img-top" height="280" alt="..."> 
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -174,8 +176,8 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
                                 </li>
                                 <li class="text-muted text-right">45THB</li>
                             </ul>
@@ -191,7 +193,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('template/promote/assets/img/Smoothies.jpg') }}" class="card-img-top" width="700px" height="500px" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -199,8 +201,9 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    
                                 </li>
                                 <li class="text-muted text-right">40THB</li>
                             </ul>
@@ -216,7 +219,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('template/promote/assets/img/icedgreentealatte.jpg') }}" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -224,8 +227,8 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
+                                    <i class="text-muted fa fa-star"></i>
                                 </li>
                                 <li class="text-muted text-right">40THB</li>
                             </ul>
