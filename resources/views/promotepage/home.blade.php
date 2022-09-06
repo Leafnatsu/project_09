@@ -166,7 +166,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="./assets/img/feature_prod_01.jpg" class="card-img-top" alt="..."> ื 
+                            <img src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}" class="card-img-top" alt="..."> 
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -191,7 +191,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="./assets/img/Smoothies.jpg" class="card-img-top" alt="...">
+                            <img src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -216,7 +216,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="./assets/img/icedgreentealatte.jpg" class="card-img-top" alt="...">
+                            <img src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
