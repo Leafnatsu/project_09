@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class FromContectAdminController extends Controller
+class FromMenuAdminController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,7 +23,7 @@ class FromContectAdminController extends Controller
      */
     public function index()
     {
-        return view('adminpage.contect.admincontect');
+        return view('adminpage.menu.from-admin-menu');
     }
 
     public function admin(){
