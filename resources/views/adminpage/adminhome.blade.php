@@ -12,7 +12,7 @@
             <div class="d-flex align-items-end row">
               <div class="col-sm-7">
                 <div class="card-body">
-                  <h5 class="card-title text-primary">Congratulations John! 🎉</h5>
+                  <h5 class="card-title text-primary">Doracha Tea Shop</h5>
                   <p class="mb-4">
                     You have done <span class="fw-bold">72%</span> more sales today. Check your new badge in
                     your profile.
@@ -24,7 +24,7 @@
               <div class="col-sm-5 text-center text-sm-left">
                 <div class="card-body pb-0 px-0 px-md-4">
                   <img
-                    src="../assets/img/illustrations/man-with-laptop-light.png"
+                    src="{{ asset('template/admin/assets/img/illustrations/man-with-laptop-light.png') }}"
                     height="140"
                     alt="View Badge User"
                     data-app-dark-img="illustrations/man-with-laptop-dark.png"
@@ -43,7 +43,7 @@
                   <div class="card-title d-flex align-items-start justify-content-between">
                     <div class="avatar flex-shrink-0">
                       <img
-                        src="../assets/img/icons/unicons/chart-success.png"
+                        src="{{ asset('template/admin/assets/img/icons/unicons/chart-success.png') }}"
                         alt="chart success"
                         class="rounded"
                       />
@@ -77,7 +77,7 @@
                   <div class="card-title d-flex align-items-start justify-content-between">
                     <div class="avatar flex-shrink-0">
                       <img
-                        src="../assets/img/icons/unicons/wallet-info.png"
+                        src="{{ asset('template/admin/assets/img/icons/unicons/wallet-info.png') }}"
                         alt="Credit Card"
                         class="rounded"
                       />
@@ -172,7 +172,7 @@
                 <div class="card-body">
                   <div class="card-title d-flex align-items-start justify-content-between">
                     <div class="avatar flex-shrink-0">
-                      <img src="../assets/img/icons/unicons/paypal.png" alt="Credit Card" class="rounded" />
+                      <img src="{{ asset('template/admin/assets/img/icons/unicons/paypal.png') }}" alt="Credit Card" class="rounded" />
                     </div>
                     <div class="dropdown">
                       <button
@@ -443,7 +443,7 @@
               <ul class="p-0 m-0">
                 <li class="d-flex mb-4 pb-1">
                   <div class="avatar flex-shrink-0 me-3">
-                    <img src="../assets/img/icons/unicons/paypal.png" alt="User" class="rounded" />
+                    <img src="{{ asset('template/admin/assets/img/icons/unicons/paypal.png') }}" alt="User" class="rounded" />
                   </div>
                   <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                     <div class="me-2">
