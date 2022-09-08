@@ -15,12 +15,6 @@
       แก้ไข
     
         </a>
-    <a href="/admin/about/delete" class="btn btn-danger"> 
-     
-      ลบ
-        
-        </a>
-
       <!-- Basic Bootstrap Table -->
       <div class="card">
         <h5 class="card-header">Table Basic</h5>
