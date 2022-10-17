@@ -81,11 +81,23 @@
               <li class="menu-header small text-uppercase"><span class="menu-header-text">หน้า</span></li>
               <!-- Cards -->
               <li class="menu-item">
+                <a href="/admin/user" class="menu-link">
+                  <i class="menu-icon tf-icons bx bx-collection"></i>
+                  <div data-i18n="Basic">User</div>
+                </a>
+              </li> 
+              <li class="menu-item">
                 <a href="/admin/product" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
                   <div data-i18n="Basic">Product</div>
                 </a>
-              </li> 
+              </li>
+              <li class="menu-item">
+                <a href="/admin/product" class="menu-link">
+                  <i class="menu-icon tf-icons bx bx-collection"></i>
+                  <div data-i18n="Basic">Type Product</div>
+                </a>
+              </li>
               <li class="menu-item">
                 <a href="/admin/about" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
@@ -102,6 +114,12 @@
                 <a href="/admin/contect" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
                   <div data-i18n="Basic">Contect</div>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="/admin/contect" class="menu-link">
+                  <i class="menu-icon tf-icons bx bx-collection"></i>
+                  <div data-i18n="Basic">Background</div>
                 </a>
               </li>
               

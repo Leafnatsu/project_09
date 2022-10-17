@@ -41,6 +41,10 @@ Auth::routes();
 //Start Admin//
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
 
+Route::get('/admin/user', [App\Http\Controllers\UserController::class, 'index'])->name('adminpage.user.adminuser');
+Route::get('/admin/user/edit', [App\Http\Controllers\EditUserAdminController::class, 'index'])->name('adminpage.user.edit');
+Route::get('/admin/product/from', [App\Http\Controllers\FromProductAdminController::class, 'index'])->name('adminpage.product.from');
+
 
 Route::get('/admin/product', [App\Http\Controllers\ProductController::class, 'index'])->name('adminpage.product.adminproduct');
 Route::get('/admin/product/edit', [App\Http\Controllers\EditProductAdminController::class, 'index'])->name('adminpage.product.edit');
