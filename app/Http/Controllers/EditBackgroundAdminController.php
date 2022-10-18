@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class EditUserAdminController extends Controller
+class EditBackgroundAdminController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,7 +23,7 @@ class EditUserAdminController extends Controller
      */
     public function index()
     {
-        return view('adminpage.user.edit-admin-user');
+        return view('adminpage.background.edit-admin-background');
     }
 
     public function admin(){

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class FromContectAdminController extends Controller
+class EditTypeProductAdminController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,7 +23,7 @@ class FromContectAdminController extends Controller
      */
     public function index()
     {
-        return view('adminpage.contect.from-admin-contect');
+        return view('adminpage.typeproduct.edit-admin-typeproduct');
     }
 
     public function admin(){

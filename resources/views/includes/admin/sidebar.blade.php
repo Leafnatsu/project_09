@@ -93,7 +93,7 @@
                 </a>
               </li>
               <li class="menu-item">
-                <a href="/admin/product" class="menu-link">
+                <a href="/admin/type-product" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
                   <div data-i18n="Basic">Type Product</div>
                 </a>
@@ -117,7 +117,7 @@
                 </a>
               </li>
               <li class="menu-item">
-                <a href="/admin/contect" class="menu-link">
+                <a href="/admin/background" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
                   <div data-i18n="Basic">Background</div>
                 </a>

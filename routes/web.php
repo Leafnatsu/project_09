@@ -43,7 +43,11 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/admin/user', [App\Http\Controllers\UserController::class, 'index'])->name('adminpage.user.adminuser');
 Route::get('/admin/user/edit', [App\Http\Controllers\EditUserAdminController::class, 'index'])->name('adminpage.user.edit');
-Route::get('/admin/product/from', [App\Http\Controllers\FromProductAdminController::class, 'index'])->name('adminpage.product.from');
+Route::get('/admin/user/from', [App\Http\Controllers\FromUserAdminController::class, 'index'])->name('adminpage.user.from');
+
+Route::get('/admin/type-product', [App\Http\Controllers\TypeProductController::class, 'index'])->name('adminpage.type-product.adminproduct');
+Route::get('/admin/type-product/edit', [App\Http\Controllers\EditTypeProductAdminController::class, 'index'])->name('adminpage.type-product.edit');
+Route::get('/admin/type-product/from', [App\Http\Controllers\FromTypeProductAdminController::class, 'index'])->name('adminpage.type-product.from');
 
 
 Route::get('/admin/product', [App\Http\Controllers\ProductController::class, 'index'])->name('adminpage.product.adminproduct');
@@ -62,6 +66,9 @@ Route::get('/admin/contect', [App\Http\Controllers\ContectAdminController::class
 Route::get('/admin/contect/from', [App\Http\Controllers\FromContectAdminController::class, 'index'])->name('adminpage.contect.from');
 Route::get('/admin/contect/edit', [App\Http\Controllers\EditContectAdminController::class, 'index'])->name('adminpage.contect.edit');
 
+Route::get('/admin/background', [App\Http\Controllers\BackgroundController::class, 'index'])->name('adminpage.background.adminbackground');
+Route::get('/admin/background/from', [App\Http\Controllers\FromBackgroundAdminController::class, 'index'])->name('adminpage.background.from');
+Route::get('/admin/background/edit', [App\Http\Controllers\EditBackgroundAdminController::class, 'index'])->name('adminpage.background.edit');
 
 
 //End Admin//
