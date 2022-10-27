@@ -6,7 +6,7 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms /</span> user</h4>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms Add/</span> user</h4>
 
               <div class="row">
                 <!-- Basic -->
@@ -61,10 +61,22 @@
                           aria-label="Phone"
                           aria-describedby="basic-addon11"
                         />
+                        
                       </div>
+                      <a href="" class="btn btn-success"> 
+     
+                        ตกลง
+                    
+                          </a>
+                      <a href="" class="btn btn-danger"> 
+     
+                        ลบ
+                        
+                          </a>
                     </div>
                   </div>
                 </div>
             </div>
             <!-- / Content -->
+
       @stop
