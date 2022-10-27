@@ -39,10 +39,8 @@
                                 <h1 class="h1 text-success"><b>Bubble</b> <b>Tea</b></h1>
                                 <h3 class="h2"></h3>
                                 <p>
-                                    Doracha <a rel="sponsored"   target="_blank">TemplateMo</a> website. 
-                                    Image credits go to <a rel="sponsored"  target="_blank">Freepik Stories</a>,
-                                    <a rel="sponsored"  target="_blank">Unsplash</a> and
-                                    <a rel="sponsored"  target="_blank">Icons 8</a>.
+                                    ชมนมไข่มุก <a rel="sponsored"   target="_blank">Doracha</a> Bubble 
+                                    Tea<a rel="sponsored"></a>
                                 </p>
                             </div>
                         </div>
@@ -58,10 +56,8 @@
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
                                 <h1 class="h1 text-success"><b> Green Tea Latte</b></h1>
-                                <h3 class="h2">Aliquip ex ea commodo consequat</h3>
-                                <p>
-                                    You are permitted to use this Zay CSS template for your commercial websites. 
-                                    You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites.
+                                ชมนมไข่มุก <a rel="sponsored"   target="_blank">Doracha</a> Bubble 
+                                    Tea<a rel="sponsored"></a>
                                 </p>
                             </div>
                         </div>
@@ -76,12 +72,9 @@
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1">Repr in voluptate</h1>
-                                <h3 class="h2">Ullamco laboris nisi ut </h3>
-                                <p>
-                                    We bring you 100% free CSS templates for your websites. 
-                                    If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you.
-                                </p>
+                                <h1 class="h1 text-success"><b>Milk Tea</b></h1>
+                                ชมนมไข่มุก <a rel="sponsored"   target="_blank">Doracha</a> Bubble 
+                                    Tea<a rel="sponsored"></a>
                             </div>
                         </div>
                     </div>
@@ -132,17 +125,17 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/Sodaw.jpg') }} " class="rounded-circle img-fluid border"></a>
                 <h5 class="text-center mt-3 mb-3">Soda</h5>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/cf.png') }} " class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Coffee</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " class="rounded-circle img-fluid border"></a>
+                <a href="#"><img src=" {{ asset('template/promote/assets/img/fries.jpg') }} " class="rounded-circle img-fluid border"></a>
                 <h2 class="h5 text-center mt-3 mb-3">Snack</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
