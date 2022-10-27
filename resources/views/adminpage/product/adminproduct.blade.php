@@ -23,9 +23,9 @@
             <thead>
               <tr>
                 <th>Name</th>
-                <th>Image</th>
                 <th>Detail</th>
                 <th>Price</th>
+                <th>Image</th>
               </tr>
             </thead>
             <tbody class="table-border-bottom-0">
