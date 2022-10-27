@@ -27,7 +27,9 @@
         <div class="col-lg-3">
             <h1 class="h2 pb-4">หมวดหมู่เครื่องดื่ม</h1>
             <ul class="list-unstyled templatemo-accordion">
-                        <a class="h3 text-dark text-decoration-none mr-3" href="#">ร้อน</a>
+                        <a class="h3" style="color: red" href="hot.php">ร้อน</a>
+
+
             
                     </a>
                     <ul class="collapse show list-unstyled pl-3">
@@ -37,7 +39,8 @@
                 </li>
                 <li class="pb-ภ">
                     <br>
-                    <a class="h3 text-dark text-decoration-none mr-3" href="#">เย็น</a>
+                    <a class="h3" style="color: #CCFFFF" href="cold.php">เย็น</a>
+
     
             
                 </a>
@@ -46,7 +49,7 @@
                     </ul>
                 </li>
                 <br>
-                <a class="h3 text-dark text-decoration-none mr- 3" href="#">ปั่น</a>
+                <a class="h3" style="color: #FF99FF" href="hot.php">ปั่น</a>
             
             </a>
             <ul class="collapse show list-unstyled pl-3">
@@ -73,7 +76,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -83,9 +86,9 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
+                                
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                     <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -103,14 +106,14 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">THB</p>
+                            <p class="text-center mb-0">55</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -120,9 +123,9 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
+                                
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                     <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -140,14 +143,14 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">THB</p>
+                            <p class="text-center mb-0">55</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -157,9 +160,9 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
+                                
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                     <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -177,14 +180,14 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">THB</p>
+                            <p class="text-center mb-0">55</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -194,9 +197,9 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
+                                
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                     <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -214,14 +217,14 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">THB</p>
+                            <p class="text-center mb-0">55</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -231,9 +234,9 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
+                                
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                     <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -251,14 +254,14 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">THB</p>
+                            <p class="text-center mb-0">55</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -268,9 +271,9 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
+                                
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                     <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -288,14 +291,14 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">THB</p>
+                            <p class="text-center mb-0">55</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -305,9 +308,9 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
+                                
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                     <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -325,14 +328,14 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">THB</p>
+                            <p class="text-center mb-0">55</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -342,9 +345,9 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
+                                
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                     <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -362,14 +365,14 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">THB</p>
+                            <p class="text-center mb-0">55</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
@@ -379,9 +382,9 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
+                                
                                 <li class="pt-2">
                                     <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                     <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -399,7 +402,7 @@
                                     <i class="text-muted fa fa-star"></i>
                                 </li>
                             </ul>
-                            <p class="text-center mb-0">THB</p>
+                            <p class="text-center mb-0">55</p>
                         </div>
                     </div>
                 </div>
@@ -437,16 +440,16 @@
                                 <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} " alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} }}" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} }}" alt="Brand Logo"></a>
                                         </div>
                                         <div class="col-3 p-md-5">
-                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/banner_img_01.jpg') }}" alt="Brand Logo"></a>
+                                            <a href="#"><img class="img-fluid brand-img" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} }}" alt="Brand Logo"></a>
                                         </div>
                                     </div>
                                 </div>
