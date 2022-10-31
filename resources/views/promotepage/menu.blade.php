@@ -27,7 +27,7 @@
         <div class="col-lg-3">
             <h1 class="h2 pb-4">หมวดหมู่เครื่องดื่ม</h1>
             <ul class="list-unstyled templatemo-accordion">
-                        <a class="h3" style="color: red" href="hot.php">ร้อน</a>
+                        <a class="h3" style="color: red" href="/hot">ร้อน</a>
 
 
             
