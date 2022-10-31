@@ -186,7 +186,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="{{ asset('template/promote/assets/img/Smoothies.jpg') }}" class="card-img-top" width="700px" height="500px" alt="...">
+                            <img src="{{ asset('template/promote/assets/img/soda1.jpg') }}" class="card-img-top"alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
