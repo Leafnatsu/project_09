@@ -57,8 +57,8 @@ Route::get('/admin/product/from', [App\Http\Controllers\ProductController::class
 Route::post('/admin/product/add', [App\Http\Controllers\ProductController::class, 'add'])->name('adminpage.product.add');
 
 Route::get('/admin/about', [App\Http\Controllers\AboutAdminController::class, 'index'])->name('adminpage.about.adminabout');
-Route::get('/admin/about/edit', [App\Http\Controllers\EditAboutAdminController::class, 'index'])->name('adminpage.about.edit');
-Route::get('/admin/about/from', [App\Http\Controllers\FromAboutAdminController::class, 'index'])->name('adminpage.about.from');
+Route::get('/admin/about/from', [App\Http\Controllers\AboutAdminController::class, 'from_add'])->name('adminpage.about.from_add');
+Route::post('/admin/about/add', [App\Http\Controllers\AboutAdminController::class, 'add'])->name('adminpage.about.add');
 
 Route::get('/admin/contect', [App\Http\Controllers\ContectAdminController::class, 'index'])->name('adminpage.contect.admincontect');
 Route::get('/admin/contect/from', [App\Http\Controllers\FromContectAdminController::class, 'index'])->name('adminpage.contect.from');

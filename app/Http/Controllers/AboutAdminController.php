@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\About;
+use App\Models\AboutAdmin;
+use App\Models\Abouts;
 use Illuminate\Http\Request;
 
 class AboutAdminController extends Controller
@@ -24,6 +27,19 @@ class AboutAdminController extends Controller
     public function index()
     {
         return view('adminpage.about.adminabout');
+    }
+
+    public function from_add()
+    {
+        return view('adminpage.about.from-admin-about');
+    }
+
+    public function add(Request $request){
+        $about = new Abouts();
+        $about->name = $request->name;
+        $about->save();
+        // toast('บันทีกข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.about.adminabout');
     }
 
     public function admin(){
