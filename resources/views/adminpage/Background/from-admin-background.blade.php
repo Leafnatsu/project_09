@@ -34,7 +34,7 @@
                         <label class="input-group-text" for="inputGroupFile02">Upload</label>
                       </div>
                       
-                      <Button type="submit" value="บันทึก" class="btn btn-primary mt-3" >บันทึก</Button>
+                      <Button type="submit" value="บันทึก" class="btn btn-success mt-3" >บันทึก</Button>
                       <a href="" class="btn btn-danger"> 
      
                         ลบ
