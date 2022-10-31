@@ -65,10 +65,9 @@ Route::get('/admin/contect/from', [App\Http\Controllers\ContectAdminController::
 Route::post('/admin/contect/add', [App\Http\Controllers\ContectAdminController::class, 'add'])->name('adminpage.contect.add');
 
 Route::get('/admin/background', [App\Http\Controllers\BackgroundController::class, 'index'])->name('adminpage.background.adminbackground');
-Route::get('/admin/background/from', [App\Http\Controllers\FromBackgroundAdminController::class, 'index'])->name('adminpage.background.from');
-Route::get('/admin/background/edit', [App\Http\Controllers\EditBackgroundAdminController::class, 'index'])->name('adminpage.background.edit');
+Route::get('/admin/background/from', [App\Http\Controllers\BackgroundController::class, 'from_add'])->name('adminpage.background.from_add');
+Route::post('/admin/background/add', [App\Http\Controllers\BackgroundController::class, 'add'])->name('adminpage.background.add');
 
 
 //End Admin//
 
-// ลองให้ฟลุ็คดึงมาใหม่

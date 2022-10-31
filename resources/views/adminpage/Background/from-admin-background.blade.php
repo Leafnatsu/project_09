@@ -16,12 +16,15 @@
                     <h5 class="card-header">Detail</h5>
                     <div class="card-body demo-vertical-spacing demo-only-element">
                       <div class="input-group">
+                        <form action="{{ route('adminpage.product.add') }}" method="post">
+                          @csrf
                         <input
                           type="text"
                           class="form-control"
                           placeholder="Detail"
                           aria-label="Detail"
                           aria-describedby="basic-addon11"
+                          name="detail"
                         />
                       </div>
 
@@ -31,11 +34,7 @@
                         <label class="input-group-text" for="inputGroupFile02">Upload</label>
                       </div>
                       
-                      <a href="" class="btn btn-success"> 
-                        
-                        ตกลง
-                        
-                      </a>
+                      <Button type="submit" value="บันทึก" class="btn btn-primary mt-3" >บันทึก</Button>
                       <a href="" class="btn btn-danger"> 
      
                         ลบ
