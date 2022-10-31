@@ -22,7 +22,7 @@
           <table class="table">
             <thead>
               <tr>
-                <th>Name</th>
+                <th>Name,</th>
                 <th>Email</th>
                 <th>Password</th>
                 <th>Phone</th>
