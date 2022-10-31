@@ -6,7 +6,7 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms Add/</span> contect</h4>
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms Add/</span> content</h4>
 
               <div class="row">
                 <!-- Basic -->
@@ -16,12 +16,15 @@
                     <h5 class="card-header">Name</h5>
                     <div class="card-body demo-vertical-spacing demo-only-element">
                       <div class="input-group">
+                        <form action="{{ route('adminpage.contect.add') }}" method="post">
+                          @csrf
                         <input
                           type="text"
                           class="form-control"
                           placeholder="Name"
                           aria-label="Name"
                           aria-describedby="basic-addon11"
+                          name="name"
                         />
                       </div>
 
@@ -31,11 +34,7 @@
                         <label class="input-group-text" for="inputGroupFile02">Upload</label>
                       </div>
                       
-                      <a href="" class="btn btn-success"> 
-                        
-                        ตกลง
-                        
-                      </a>
+                      <Button type="submit" value="บันทึก" class="btn btn-primary mt-3" >บันทึก</Button>
                       <a href="" class="btn btn-danger"> 
      
                         ลบ
@@ -43,6 +42,7 @@
                           </a>
                     </div>
                   </div>
+                </form>
                 </div>
             </div>
             <!-- / Content -->

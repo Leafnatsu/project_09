@@ -61,8 +61,8 @@ Route::get('/admin/about/from', [App\Http\Controllers\AboutAdminController::clas
 Route::post('/admin/about/add', [App\Http\Controllers\AboutAdminController::class, 'add'])->name('adminpage.about.add');
 
 Route::get('/admin/contect', [App\Http\Controllers\ContectAdminController::class, 'index'])->name('adminpage.contect.admincontect');
-Route::get('/admin/contect/from', [App\Http\Controllers\FromContectAdminController::class, 'index'])->name('adminpage.contect.from');
-Route::get('/admin/contect/edit', [App\Http\Controllers\EditContectAdminController::class, 'index'])->name('adminpage.contect.edit');
+Route::get('/admin/contect/from', [App\Http\Controllers\ContectAdminController::class, 'from_add'])->name('adminpage.contect.from_add');
+Route::post('/admin/contect/add', [App\Http\Controllers\ContectAdminController::class, 'add'])->name('adminpage.contect.add');
 
 Route::get('/admin/background', [App\Http\Controllers\BackgroundController::class, 'index'])->name('adminpage.background.adminbackground');
 Route::get('/admin/background/from', [App\Http\Controllers\FromBackgroundAdminController::class, 'index'])->name('adminpage.background.from');
