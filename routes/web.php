@@ -48,8 +48,8 @@ Route::get('/admin/user/edit', [App\Http\Controllers\EditUserAdminController::cl
 Route::get('/admin/user/from', [App\Http\Controllers\FromUserAdminController::class, 'index'])->name('adminpage.user.from');
 
 Route::get('/admin/type-product', [App\Http\Controllers\TypeProductController::class, 'index'])->name('adminpage.type-product.adminproduct');
-Route::get('/admin/type-product/edit', [App\Http\Controllers\EditTypeProductAdminController::class, 'index'])->name('adminpage.type-product.edit');
-Route::get('/admin/type-product/from', [App\Http\Controllers\FromTypeProductAdminController::class, 'index'])->name('adminpage.type-product.from');
+Route::get('/admin/type-product/from', [App\Http\Controllers\TypeProductController::class, 'from_add'])->name('adminpage.type-product.from_add');
+Route::post('/admin/type-product/add', [App\Http\Controllers\TypeProductController::class, 'add'])->name('adminpage.type-product.add');
 
 
 Route::get('/admin/product', [App\Http\Controllers\ProductController::class, 'index'])->name('adminpage.product.adminproduct');

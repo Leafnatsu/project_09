@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\TypeProduct;
 
 class TypeProductController extends Controller
 {
@@ -24,6 +25,19 @@ class TypeProductController extends Controller
     public function index()
     {
         return view('adminpage.typeproduct.admintypeproduct');
+    }
+    
+    public function from_add()
+    {
+        return view('adminpage.typeproduct.from-admin-typeproduct');
+    }
+
+    public function add(Request $request){
+        $type_product = new TypeProduct();
+        $type_product->name = $request->name;
+        $type_product->save();
+        // toast('บันทีกข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.type-product.adminproduct');
     }
 
     public function admin(){
