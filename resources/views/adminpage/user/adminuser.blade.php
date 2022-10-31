@@ -24,6 +24,7 @@
               <tr>
                 <th>Name</th>
                 <th>Email</th>
+                <th>Address</th>
                 <th>Password</th>
                 <th>Phone</th>
               </tr>

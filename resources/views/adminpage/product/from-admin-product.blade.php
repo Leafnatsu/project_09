@@ -16,26 +16,29 @@
                     <h5 class="card-header">Name</h5>
                     <div class="card-body demo-vertical-spacing demo-only-element">
                       <div class="input-group">
-                        <input
+                        <form action="{{ route('adminpage.product.add') }}" method="post">
+                          @csrf
+                          <input
                           type="text"
                           class="form-control"
                           placeholder="Name"
                           aria-label="Name"
                           aria-describedby="basic-addon11"
-                        />
+                          name="name"
+                          />
                       </div>
-
+                      
                       
                       <h5>Detail</h5>
                       <div class="input-group">
-                        <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Detail"
-                        aria-label="Detail"
-                        aria-describedby="basic-addon11"
-                        />
-                        
+                          <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Detail"
+                          aria-label="Detail"
+                          aria-describedby="basic-addon11"
+                          neme="detail"
+                          />
                       </div>
                       
                       <h5>Price</h5>
@@ -46,8 +49,8 @@
                         placeholder="Price"
                         aria-label="Price"
                         aria-describedby="basic-addon11"
+                        name="price"
                         />
-                        
                       </div>
                       
                       <h5>Image</h5>
@@ -56,11 +59,7 @@
                         <label class="input-group-text" for="inputGroupFile02">Upload</label>
                       </div>
                       
-                      <a href="" class="btn btn-success"> 
-                        
-                        ตกลง
-                        
-                      </a>
+                      <Button type="submit" value="บันทึก" class="btn btn-primary mt-3" >บันทึก</Button>
                       <a href="" class="btn btn-danger"> 
      
                         ลบ
@@ -68,6 +67,7 @@
                           </a>
                     </div>
                   </div>
+                </form>
                 </div>
             </div>
             <!-- / Content -->

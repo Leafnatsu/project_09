@@ -36,6 +36,17 @@
                           />
                         </div>
 
+                        <h5>Address</h5>
+                        <div class="input-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Address"
+                            aria-label="Address"
+                            aria-describedby="basic-addon11"
+                          />
+                        </div>
+
                       <div class="form-password-toggle">
                       <h5>Password</h5>
                         <div class="input-group">
