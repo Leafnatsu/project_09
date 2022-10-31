@@ -15,7 +15,7 @@ TemplateMo 559 Zay Shop
 
 https://templatemo.com/tm-559-zay-shop
 
--->
+-->         
 <script src="{{ asset('template/promote/assets/js/jquery-1.11.0.min.js')}}"></script>
 <script src="{{ asset('template/promote/assets/js/jquery-migrate-1.2.1.min.js')}}"></script>
 <script src="{{ asset('template/promote/assets/js/bootstrap.bundle.min.js')}}"></script>
