@@ -1,32 +1,43 @@
 @extends('layouts.promote')
 @section('content')
 
-<!-- Modal -->
-<div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="w-100 pt-1 mb-5 text-right">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <form action="" method="get" class="modal-content modal-body border-0 p-0">
-            <div class="input-group mb-2">
-                <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
-                <button type="submit" class="input-group-text bg-success text-light">
-                    <i class="fa fa-fw fa-search text-white"></i>
-                </button>
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-        </form>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
+ 
+   
+
+    <!-- Start Content Page -->
+    <div class="container-fluid bg-light py-5">
+        <div class="col-md-6 m-auto text-center">
+            <h1 class="h1">Store Located</h1>
+            <p>
+                ที่ตั้งร้านค้า
+            </p>
+        </div>
+    </div>
 
 
 
 <!-- Start Banner Hero -->
-Store Located
+
 <div class="mapouter">
-    <div class="gmap_canvas"><iframe  style='display: block; margin: 100 auto;' width="1000" height="640"  class="gmap_iframe" frameborder="0" scrolling="no" marginheight="" marginwidth="0"
-            src="https://maps.google.com/maps?width=800&amp;height=600&amp;hl=en&amp;q=315/293 ถ.จรัญสนิทวงศ์ แขวง บางอ้อ เขตบางพลัด กรุงเทพมหานคร 10700&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-            href="https://mcpenation.com/">MCPE Nation</a></div>
+    <div class="gmap_canvas"><iframe style='display: block; margin: 100 auto;'  class="gmap_iframe" position frameborder="0" scrolling="no" marginheight="" marginwidth="0" 
+            src="https://maps.google.com/maps?width=800px&amp;height=600&amp;hl=en&amp;q=315/293 ถ.จรัญสนิทวงศ์ แขวง บางอ้อ เขตบางพลัด กรุงเทพมหานคร 10700&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+            href="https://mcpenation.com/">MCPE Nation</a></div></div>
     <style>
         .mapouter {
             position: relative;
