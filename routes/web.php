@@ -59,10 +59,6 @@ Route::get('/admin/about', [App\Http\Controllers\AboutAdminController::class, 'i
 Route::get('/admin/about/edit', [App\Http\Controllers\EditAboutAdminController::class, 'index'])->name('adminpage.about.edit');
 Route::get('/admin/about/from', [App\Http\Controllers\FromAboutAdminController::class, 'index'])->name('adminpage.about.from');
 
-Route::get('/admin/menu', [App\Http\Controllers\MenuAdminController::class, 'index'])->name('adminpage.menu.adminmenu');
-Route::get('/admin/menu/edit', [App\Http\Controllers\EditMenuAdminController::class, 'index'])->name('adminpage.menu.edit');
-Route::get('/admin/menu/from', [App\Http\Controllers\FromMenuAdminController::class, 'index'])->name('adminpage.menu.from');
-
 Route::get('/admin/contect', [App\Http\Controllers\ContectAdminController::class, 'index'])->name('adminpage.contect.admincontect');
 Route::get('/admin/contect/from', [App\Http\Controllers\FromContectAdminController::class, 'index'])->name('adminpage.contect.from');
 Route::get('/admin/contect/edit', [App\Http\Controllers\EditContectAdminController::class, 'index'])->name('adminpage.contect.edit');

@@ -105,12 +105,6 @@
                 </a>
               </li> 
               <li class="menu-item">
-                <a href="/admin/menu" class="menu-link">
-                  <i class="menu-icon tf-icons bx bx-collection"></i>
-                  <div data-i18n="Basic">Menu</div>
-                </a>
-              </li> 
-              <li class="menu-item">
                 <a href="/admin/contect" class="menu-link">
                   <i class="menu-icon tf-icons bx bx-collection"></i>
                   <div data-i18n="Basic">Contect</div>
