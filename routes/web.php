@@ -30,6 +30,7 @@ use Illuminate\Support\Facades\Route;
  Route::view('/hot', 'promotepage.hot')->name('promotepage.hot');
  Route::view('/contract', 'promotepage.contract')->name('promotepage.contract');
  Route::view('/info', 'promotepage.info')->name('promotepage.info');
+ Route::view('/cart', 'promotepage.cart')->name('promotepage.cart');
  Route::view('/login', 'auth.login')->name('promotepage.login');
 
 //End Promote//
