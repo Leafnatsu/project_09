@@ -42,6 +42,19 @@ class AboutAdminController extends Controller
         return redirect()->route('adminpage.about.adminabout');
     }
 
+    public function edit($id){
+        $about = Abouts::find($id);
+        return view('adminpage.about.edit-admin-about',compact('about'));
+    }
+
+    public function update(Request $request, $id){
+        $about = Abouts::find($id);
+        $about->name = $request->name;
+        $about->update();
+        // toast('แก้ไขข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.about.adminabout');
+    }
+
     public function admin(){
         return view('admin.index');
     }
