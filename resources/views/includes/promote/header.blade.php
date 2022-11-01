@@ -19,7 +19,7 @@
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
-
+        
             <a class="navbar-brand text-success logo h1 align-self-center" href="/">
             DoraCha
             </a>
@@ -56,14 +56,15 @@
                         </div>
                     </div>
 
-                    </a>
+                    {{-- </a>
                     <a class="nav-icon position-relative text-decoration-none" href="/cart">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">0</span>
-                    </a>
+                    </a> --}}
                     <a class="nav-icon position-relative text-decoration-none" href="/login">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
+                        <h6>Login/Register</h6>
                     </a>
                     
                  </div>

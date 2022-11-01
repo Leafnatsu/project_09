@@ -449,7 +449,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ชามะลิ.jpg') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ชานมไข่มุก.jpg') }}">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -458,7 +458,7 @@
                         </div>
                         <div class="card-body">
                             <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
-                            <a><h5>ชามะลิ</h5></a>
+                            <a><h5>ชานมไข่มุก</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">

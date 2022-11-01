@@ -32,11 +32,11 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/BBTEA.jpg') }}  " alt="">
+                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/ชานมไข่มุก.jpg') }}  " alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>Bubble</b> <b>Tea</b></h1>
+                                <h1 class="h1 text-success"><b>ชานมไข่มุก</b> <b>Bubble Tea</b></h1>
                                 <h3 class="h2"></h3>
                                 <p>
                                     ชมนมไข่มุก <a rel="sponsored"   target="_blank">Doracha</a> Bubble 
@@ -51,12 +51,12 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/icedgreentealatte.jpg') }} " alt="">
+                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/ชาเขียว.jpg') }} " alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1 text-success"><b> Green Tea Latte</b></h1>
-                                ชมนมไข่มุก <a rel="sponsored"   target="_blank">Doracha</a> Bubble 
+                                <h1 class="h1 text-success"><b>ชาเขียว</b> <b> Green Tea Latte</b></h1>
+                                ชาเขียว<a rel="sponsored"   target="_blank">Doracha</a> Bubble 
                                     Tea<a rel="sponsored"></a>
                                 </p>
                             </div>
@@ -68,12 +68,12 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " alt="">
+                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/ชานม.jpg') }} " alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1 text-success"><b>Milk Tea</b></h1>
-                                ชมนมไข่มุก <a rel="sponsored"   target="_blank">Doracha</a> Bubble 
+                                <h1 class="h1 text-success"><b>ชานม</b> <b>Milk Tea</b></h1>
+                                ชมนม<a rel="sponsored"   target="_blank"> Doracha</a> Bubble 
                                     Tea<a rel="sponsored"></a>
                             </div>
                         </div>
@@ -95,28 +95,28 @@
     <section class="container py-5">
         <div class="row text-center pt-3">
             <div class="col-lg-6 m-auto">
-                <B class="h1"><B>Type of Menu</B>
+                <B class="h1"><B>Beverage</B>
                 <p>
-                    ประเภทเมนูเครื่องดื่มในร้าน
+                    เครื่องดื่มในร้าน
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
                 <br>
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEA.jpg') }} " class="rounded-circle img-fluid border" height="600"> </a>
-                <h5 class="text-center mt-3 mb-3">Bubble Tea</h5>
+                <img src=" {{ asset('template/promote/assets/img/ชานม.jpg') }} " class="rounded-circle img-fluid border" height="600"> </a>
+                <h5 class="text-center mt-3 mb-3">ชานม</h5>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/tea.jpg') }} " class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Tea</h2>
+                <img src=" {{ asset('template/promote/assets/img/ชาเขียว.jpg') }} " class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">ชาเขียว</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/icedgreentealatte.jpg') }} " class="rounded-circle img-fluid border"></a>
+                <img src=" {{ asset('template/promote/assets/img/ชานมมัชชะ.jpg') }} " class="rounded-circle img-fluid border"></a>
                 <br>    
-                <h2 class="h5 text-center mt-3 mb-4     ">Green Tea</h2>
+                <h2 class="h5 text-center mt-3 mb-4">ชานมมัชชะ</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
         </div>
@@ -125,18 +125,18 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/Sodaw.jpg') }} " class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">Soda</h5>
+                <img src=" {{ asset('template/promote/assets/img/ส้มยูสุโซดา.jpg') }} " class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">ส้มยูสุโซดา</h5>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/cf.png') }} " class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Coffee</h2>
+                <img src=" {{ asset('template/promote/assets/img/ชานมลาเต้.jpg') }} " class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">ชานมลาเต้</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
             <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/fries.jpg') }} " class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Snack</h2>
+                <img src=" {{ asset('template/promote/assets/img/มัทฉะสตอเบอรี่.jpg') }} " class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">มัทฉะสตอเบอรี่</h2>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
         </div>
@@ -151,7 +151,7 @@
         <div class="container py-5">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h1 class="h1"><b>Beverage</b></h1>
+                    <h1 class="h1"><b>Recomended Menu</b></h1>
                     <p>
                         เมนูแนะนำ
                     </p>
@@ -161,7 +161,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}" class="card-img-top" height="280" alt="..."> 
+                            <img src="{{ asset('template/promote/assets/img/ชามะลิ.jpg') }}" class="card-img-top" height="280" alt="..."> 
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -172,11 +172,11 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
                                 </li>
-                                <li class="text-muted text-right">45THB</li>
+                                <li class="text-muted text-right">55THB</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Bubble Tea</a>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">ชามะลิ</a>
                             <p class="card-text">
-                                ชานมไข่มุก
+                                Bubble Tea
                             </p>
                             <p class="text-muted">Reviews (16)</p>
                             <a class="btn btn-success">Buy</a>
@@ -186,7 +186,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="{{ asset('template/promote/assets/img/soda1.jpg') }}" class="card-img-top"alt="...">
+                            <img src="{{ asset('template/promote/assets/img/ชานม3.jpg') }}" class="card-img-top"alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -200,9 +200,9 @@
                                 </li>
                                 <li class="text-muted text-right">40THB</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Smoothie</a>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">ชานม</a>
                             <p class="card-text">
-                                น้ำปั่น
+                                Bubble Tea
                             </p>
                             <p class="text-muted">Reviews (37)</p>
                             <a class="btn btn-success">Buy</a>
@@ -212,7 +212,7 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card h-100">
                         <a href="shop-single.html">
-                            <img src="{{ asset('template/promote/assets/img/icedgreentealatte.jpg') }}" class="card-img-top" alt="...">
+                            <img src="{{ asset('template/promote/assets/img/นมชมพู.jpg') }}" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -225,9 +225,9 @@
                                 </li>
                                 <li class="text-muted text-right">40THB</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Iced Green Tea Latte</a>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">นมชมพู</a>
                             <p class="card-text">
-                                ชาเขียว
+                                Bubble Tea
                             </p>
                             <p class="text-muted">Reviews (34)</p>
                             <a class="btn btn-success">Buy</a>
