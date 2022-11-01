@@ -34,11 +34,7 @@
                         <label class="input-group-text" for="inputGroupFile02">Upload</label>
                       </div>
                       <Button type="submit" value="บันทึก" class="btn btn-success mt-3" >บันทึก</Button>
-                      <a href="" class="btn btn-danger"> 
-     
-                        ลบ
-                        
-                          </a>
+                      <a href="{{ route('adminpage.type-product.adminproduct') }}" class="btn btn-danger mt-3 mx-2">ย้อนกลับ</a>
                     </div>
                   </div>
                 </form>
