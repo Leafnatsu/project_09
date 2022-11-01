@@ -51,7 +51,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ชานม.jpg') }}">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -59,8 +59,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>ชานม</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -87,7 +87,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ชาเขียว.jpg') }}">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -95,8 +95,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>ชาเขียว</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -123,7 +123,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ชานมมัชชะ.jpg') }}">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -131,8 +131,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>ชานมมัทฉะ</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -159,7 +159,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ชานมลาเต้.jpg') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -167,8 +167,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>ชานมลาเต้</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -195,7 +195,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ชานมสดชาร์โคล.jpg') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -203,8 +203,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>ชานมสดชาร์โคล</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -231,7 +231,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ชาพีช.jpg') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -239,8 +239,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>ชาพีช</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -267,7 +267,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ชาส้มยูสุ.jpg') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -275,8 +275,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>ชาส้มยูสุ</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -303,7 +303,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/นมสดช็อคโกแลตคุกกี้.jpg') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -311,8 +311,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>นมสดช็อคโกแลตคุกกี้</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -339,7 +339,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/นมสดฮอกไกโด.jpg') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -347,8 +347,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>นมสดฮอกไกโด</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -377,7 +377,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/มัทฉะสตอเบอรี่.jpg') }}">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -385,8 +385,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>มัทฉะสตอเบอรี่</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -413,7 +413,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ส้มยูสุโซดา.jpg') }}">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -421,8 +421,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>ส้มยูสุโซดา</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -449,7 +449,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/ชามะลิ.jpg') }}">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -457,8 +457,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>ชามะลิ</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -485,7 +485,7 @@
                 <div class="col-md-4">
                     <div class="card mb-4 product-wap rounded-0">
                         <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
+                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/นมชมพู.jpg') }} ">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                 <ul class="list-unstyled">
                                     <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
@@ -493,8 +493,8 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
+                            <a href="shop-single.html" class="h3 text-decoration-none">Doracha</a>
+                            <a><h5>นมชมพู</h5></a>
                             <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
                                 
                                 <li class="pt-2">
@@ -518,187 +518,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 product-wap rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
                         </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">55 THB</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 product-wap rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">55 THB</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 product-wap rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">55 THB</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 product-wap rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">55 THB</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-4 product-wap rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="{{ asset('template/promote/assets/img/BBTEAAA.png') }} ">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Bubble Tea</a>
-                            <a><h5>ชานมไข่มุก</h5></a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">55 THB</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                       
             
         
                     
