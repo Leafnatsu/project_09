@@ -10,11 +10,6 @@
     ปุ่มเพิ่ม
 
       </a>
-      <a href="/admin/contect/edit" class="btn btn-warning"> 
-     
-        แก้ไข
-      
-          </a>
 
      <!-- Basic Bootstrap Table -->
      <div class="card">
@@ -38,10 +33,10 @@
             <td>{{ $item->image }}</td>
             <td>{{ $item->created_at }}</td>
             <td>{{ $item->updated_at }}</td>
-            {{-- <td>
-              <a href="{{ route('about.edit',$item->id) }}"><i class='bx bxs-edit'>Edit</i></a>
-              <a href="{{ route('about.delete',$item->id) }}"><i class='bx bx-trash'>Delete</i></a>
-            </td> --}}
+            <td>
+              <a href="{{ route('adminpage.contect.edit',$item->id) }}"><i class='bx bxs-edit'>Edit</i></a>
+              <a href="{{ route('adminpage.contect.delete',$item->id) }}"><i class='bx bx-trash'>Delete</i></a>
+            </td>
             </tr>
             @endforeach
           </tbody>
@@ -53,7 +48,7 @@
 
     <hr class="my-5">
 
-   
+    {{ $content->links('pagination::bootstrap-5') }}
 
 
   <div class="content-backdrop fade"></div>

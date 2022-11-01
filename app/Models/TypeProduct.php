@@ -10,4 +10,9 @@ class TypeProduct extends Model
     use HasFactory;
     protected $teble = 'type_products';
     protected $fillable = ['name','image'];
+
+    public function product()
+    {
+        return $this->hasMany(Product::class, 'id_type_product');
+    }
 }

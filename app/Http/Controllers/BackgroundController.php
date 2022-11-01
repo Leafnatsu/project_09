@@ -42,6 +42,26 @@ class BackgroundController extends Controller
         return redirect()->route('adminpage.background.adminbackground');
     }
 
+    public function edit($id){
+        $backgrounds = Backgrounds::find($id);
+        return view('adminpage.background.edit-admin-background',compact('backgrounds'));
+    }
+
+    public function update(Request $request, $id){
+        $backgrounds = Backgrounds::find($id);
+        $backgrounds->detail = $request->detail;
+        $backgrounds->update();
+        // toast('แก้ไขข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.background.adminbackground');
+    }
+
+    public function delete($id){
+        $backgrounds = Backgrounds::find($id);
+        $backgrounds->delete();
+        // toast('ลบข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.background.adminbackground');
+    }
+
     public function admin(){
         return view('admin.index');
     }

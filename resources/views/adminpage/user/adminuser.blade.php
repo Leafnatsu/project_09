@@ -10,11 +10,6 @@
     ปุ่มเพิ่ม
 
       </a>
-      <a href="/admin/user/edit" class="btn btn-warning"> 
-     
-        แก้ไข
-      
-          </a>
       <!-- Basic Bootstrap Table -->
       <div class="card">
         <h5 class="card-header">Table User</h5>
@@ -57,7 +52,7 @@
 
       <hr class="my-5">
 
-     
+      {{ $user->links('pagination::bootstrap-5') }}
 
 
     <div class="content-backdrop fade"></div>

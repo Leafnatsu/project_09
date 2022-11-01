@@ -10,11 +10,6 @@
     ปุ่มเพิ่ม
 
       </a>
-      <a href="/admin/product/edit" class="btn btn-warning"> 
-     
-        แก้ไข
-      
-          </a>
       <!-- Basic Bootstrap Table -->
       <div class="card">
         <h5 class="card-header">Table Product</h5>
@@ -23,6 +18,7 @@
             <thead>
               <tr>
                 <th>No</th>
+                <th>Typeproduct</th>
                 <th>Name</th>
                 <th>Detail</th>
                 <th>Price</th>
@@ -35,16 +31,17 @@
               @foreach ($product as $item)
               <tr>
               <td>{{ $product->firstItem()+$loop->index}}</td>
+              <td>{{ $item->type_products->name }}</td>
               <td>{{ $item->name }}</td>
               <td>{{ $item->detail }}</td>
               <td>{{ $item->price }}</td>
               <td>{{ $item->image }}</td>
               <td>{{ $item->created_at }}</td>
               <td>{{ $item->updated_at }}</td>
-              {{-- <td>
-                <a href="{{ route('about.edit',$item->id) }}"><i class='bx bxs-edit'>Edit</i></a>
-                <a href="{{ route('about.delete',$item->id) }}"><i class='bx bx-trash'>Delete</i></a>
-              </td> --}}
+              <td>
+                <a href="{{ route('adminpage.product.edit',$item->id) }}"><i class='bx bxs-edit'>Edit</i></a>
+                <a href="{{ route('adminpage.product.delete',$item->id) }}"><i class='bx bx-trash'>Delete</i></a>
+              </td>
               </tr>
               @endforeach
             </tbody>
@@ -55,7 +52,7 @@
 
       <hr class="my-5">
 
-     
+      {{ $product->links('pagination::bootstrap-5') }}
 
 
     <div class="content-backdrop fade"></div>

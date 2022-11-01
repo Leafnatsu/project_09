@@ -24,7 +24,7 @@
                           placeholder="Name"
                           aria-label="Name"
                           aria-describedby="basic-addon11"
-                          name="name"
+                          name="name" value="{{$about->name}}"
                         />
                       </div>
 

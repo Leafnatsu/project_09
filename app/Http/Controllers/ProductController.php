@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Product;
+use App\Models\TypeProduct;
 
 class ProductController extends Controller
 {
@@ -30,7 +31,8 @@ class ProductController extends Controller
 
     public function from_add()
     {
-        return view('adminpage.product.from-admin-product');
+        $typeproduct = TypeProduct::all();
+        return view('adminpage.product.from-admin-product',compact('typeproduct'));
     }
 
     public function add(Request $request){
@@ -38,8 +40,33 @@ class ProductController extends Controller
         $product->name = $request->name;
         $product->detail = $request->detail;
         $product->price = $request->price;
+        $product->id_type_product = $request->id_type_product;
         $product->save();
         // toast('บันทีกข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.product.adminproduct');
+    }
+
+    public function edit($id){
+        $typeproduct = TypeProduct::all();
+        $product = Product::find($id);
+        return view('adminpage.product.edit-admin-product',compact('product','typeproduct'));
+    }
+
+    public function update(Request $request, $id){
+        $product = Product::find($id);
+        $product->name = $request->name;
+        $product->detail = $request->detail;
+        $product->price = $request->price;
+        $product->id_type_product = $request->id_type_product;
+        $product->update();
+        // toast('แก้ไขข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.product.adminproduct');
+    }
+
+    public function delete($id){
+        $product = Product::find($id);
+        $product->delete();
+        // toast('ลบข้อมูลสำเร็จ','success');
         return redirect()->route('adminpage.product.adminproduct');
     }
 

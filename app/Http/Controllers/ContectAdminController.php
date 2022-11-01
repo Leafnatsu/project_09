@@ -43,6 +43,26 @@ class ContectAdminController extends Controller
         return redirect()->route('adminpage.contect.admincontect');
     }
 
+    public function edit($id){
+        $content = Contents::find($id);
+        return view('adminpage.contect.edit-admin-contect',compact('content'));
+    }
+
+    public function update(Request $request, $id){
+        $content = Contents::find($id);
+        $content->name = $request->name;
+        $content->update();
+        // toast('แก้ไขข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.contect.admincontect');
+    }
+
+    public function delete($id){
+        $content = Contents::find($id);
+        $content->delete();
+        // toast('ลบข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.contect.admincontect');
+    }
+
     public function admin(){
         return view('admin.index');
     }

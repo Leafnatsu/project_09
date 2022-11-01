@@ -13,11 +13,19 @@
                 <div class="row">
                   <div class="col-md-11.5">
                     <div class="card mb-6">
-                      <h5 class="card-header">Name</h5>
                       <div class="card-body demo-vertical-spacing demo-only-element">
                         <div class="input-group">
                           <form action="{{ route('adminpage.product.add') }}" method="post">
                             @csrf
+                        <h5 class="card-header">Typeproduct</h5>
+                        <select name="id_type_product">
+                          <option selected> กรุณาเลือกประเภท </option>
+                  @foreach ($typeproduct as $item)
+                          <option value="{{$item->id}}"> {{$item->name}} </option>
+                 @endforeach
+                        </select>
+
+                        <h5 class="card-header">Name</h5>
                           <input
                           type="text"
                           class="form-control"

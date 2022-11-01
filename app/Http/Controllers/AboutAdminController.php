@@ -54,6 +54,13 @@ class AboutAdminController extends Controller
         return redirect()->route('adminpage.about.adminabout');
     }
 
+    public function delete($id){
+        $about = Abouts::find($id);
+        $about->delete();
+        // toast('ลบข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.about.adminabout');
+    }
+
     public function admin(){
         return view('admin.index');
     }
