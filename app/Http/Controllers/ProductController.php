@@ -24,7 +24,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('adminpage.product.adminproduct');
+        $product = Product::Paginate(4);
+        return view('adminpage.product.adminproduct',compact('product'));
     }
 
     public function from_add()

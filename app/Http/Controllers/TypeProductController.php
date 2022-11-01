@@ -24,7 +24,8 @@ class TypeProductController extends Controller
      */
     public function index()
     {
-        return view('adminpage.typeproduct.admintypeproduct');
+        $typeproduct = TypeProduct::Paginate(4);
+        return view('adminpage.typeproduct.admintypeproduct',compact('typeproduct'));
     }
     
     public function from_add()

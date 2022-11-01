@@ -17,7 +17,7 @@ class BackgroundController extends Controller
     {
         $this->middleware('auth');
     }
-
+    
     /**
      * Show the application dashboard.
      *
@@ -25,7 +25,8 @@ class BackgroundController extends Controller
      */
     public function index()
     {
-        return view('adminpage.background.adminbackground');
+        $background = Backgrounds::Paginate(4);
+        return view('adminpage.background.adminbackground',compact('background'));
     }
 
     public function from_add()

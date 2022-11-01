@@ -27,15 +27,15 @@
             <tbody class="table-border-bottom-0">
               @foreach ($abouts as $item)
               <tr>
-              <td>{{ $abouts ->firstItem()+$loop->adminabout}}</td>
+              <td>{{ $abouts->firstItem()+$loop->index}}</td>
               <td>{{ $item->name }}</td>
               <td>{{ $item->image }}</td>
               <td>{{ $item->created_at }}</td>
               <td>{{ $item->updated_at }}</td>
-              <td>
+              {{-- <td>
                 <a href="{{ route('about.edit',$item->id) }}"><i class='bx bxs-edit'>Edit</i></a>
                 <a href="{{ route('about.delete',$item->id) }}"><i class='bx bx-trash'>Delete</i></a>
-              </td>
+              </td> --}}
               </tr>
             @endforeach
             </tbody>

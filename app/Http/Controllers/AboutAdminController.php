@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\About;
-use App\Models\AboutAdmin;
 use App\Models\Abouts;
 use Illuminate\Http\Request;
 
@@ -26,7 +24,8 @@ class AboutAdminController extends Controller
      */
     public function index()
     {
-        return view('adminpage.about.adminabout');
+        $abouts = Abouts::Paginate(4);
+        return view('adminpage.about.adminabout',compact('abouts'));
     }
 
     public function from_add()

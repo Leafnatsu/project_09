@@ -26,7 +26,8 @@ class ContectAdminController extends Controller
      */
     public function index()
     {
-        return view('adminpage.contect.admincontect');
+        $content = Contents::Paginate(4);
+        return view('adminpage.contect.admincontect',compact('content'));
     }
 
     public function from_add()
@@ -35,9 +36,9 @@ class ContectAdminController extends Controller
     }
 
     public function add(Request $request){
-        $about = new Contents();
-        $about->name = $request->name;
-        $about->save();
+        $content = new Contents();
+        $content->name = $request->name;
+        $content->save();
         // toast('บันทีกข้อมูลสำเร็จ','success');
         return redirect()->route('adminpage.contect.admincontect');
     }

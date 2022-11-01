@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class UserController extends Controller
 {
@@ -23,7 +24,8 @@ class UserController extends Controller
      */
     public function index()
     {
-        return view('adminpage.user.adminuser');
+        $user = User::Paginate(4);
+        return view('adminpage.user.adminuser',compact('user'));
     }
 
     public function admin(){
