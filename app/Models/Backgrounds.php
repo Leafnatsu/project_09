@@ -5,9 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Background extends Model
+class Backgrounds extends Model
 {
     use HasFactory;
-    protected $teble = 'background';
+    protected $teble = 'backgrounds';
     protected $fillable = ['detail','image'];
 }

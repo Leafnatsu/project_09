@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Background;
+use App\Models\Backgrounds;
 use Illuminate\Http\Request;
 
 class BackgroundController extends Controller
@@ -33,9 +34,9 @@ class BackgroundController extends Controller
     }
 
     public function add(Request $request){
-        $background = new Background();
-        $background->detail = $request->detail;
-        $background->save();
+        $backgrounds = new Backgrounds();
+        $backgrounds->detail = $request->detail;
+        $backgrounds->save();
         // toast('บันทีกข้อมูลสำเร็จ','success');
         return redirect()->route('adminpage.background.adminbackground');
     }

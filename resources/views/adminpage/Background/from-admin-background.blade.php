@@ -16,7 +16,7 @@
                     <h5 class="card-header">Detail</h5>
                     <div class="card-body demo-vertical-spacing demo-only-element">
                       <div class="input-group">
-                        <form action="{{ route('adminpage.product.add') }}" method="post">
+                        <form action="{{ route('adminpage.background.add') }}" method="post">
                           @csrf
                         <input
                           type="text"
