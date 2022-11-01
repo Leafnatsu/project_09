@@ -32,11 +32,11 @@
                         <div class="input-group">
                             <input
                             type="text"
-                            class="form-control"
-                            placeholder="Detail"
-                            aria-label="Detail"
-                            aria-describedby="basic-addon11"
-                            neme="detail"
+                          class="form-control"
+                          placeholder="Detail"
+                          aria-label="Detail"
+                          aria-describedby="basic-addon11"
+                          name="detail"
                             />
                           </div>
                           
@@ -48,7 +48,7 @@
                             placeholder="Price"
                             aria-label="Price"
                             aria-describedby="basic-addon11"
-                            price="price"
+                            name="price"
                             />
                           </div>
                           
