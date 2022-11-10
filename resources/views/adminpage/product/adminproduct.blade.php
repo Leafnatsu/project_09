@@ -35,7 +35,9 @@
               <td>{{ $item->name }}</td>
               <td>{{ $item->detail }}</td>
               <td>{{ $item->price }}</td>
-              <td>{{ $item->image }}</td>
+              <td>
+                <img src="{{ asset('admin/upload/product/'.$item->image)}}" width="100px" height="80px" alt=""> 
+              </td>
               <td>{{ $item->created_at }}</td>
               <td>{{ $item->updated_at }}</td>
               <td>
