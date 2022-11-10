@@ -10,11 +10,6 @@
     ปุ่มเพิ่ม
 
       </a>
-      <a href="/admin/contect/edit" class="btn btn-warning"> 
-     
-        แก้ไข
-      
-          </a>
 
      <!-- Basic Bootstrap Table -->
      <div class="card">
@@ -23,42 +18,27 @@
         <table class="table">
           <thead>
             <tr>
+              <th>No</th>
               <th>Name</th>
               <th>Image</th>
+              <th>created_at</th>
+              <th>updated_at</th>
             </tr>
           </thead>
           <tbody class="table-border-bottom-0">
+            @foreach ($content as $item)
             <tr>
-              <td>
-                <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong>Bootstrap Project</strong>
-              </td>
-              <td>Jerry Milton</td>
-              <td>
-                <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                  <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="" data-bs-original-title="Lilian Fuller">
-                    <img src="{{ asset('template/admin/assets/img/avatars/5.png') }}" alt="Avatar" class="rounded-circle">
-                  </li>
-                  <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="" data-bs-original-title="Sophia Wilkerson">
-                    <img src="{{ asset('template/admin/assets/img/avatars/6.png') }}" alt="Avatar" class="rounded-circle">
-                  </li>
-                  <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="" data-bs-original-title="Christina Parker">
-                    <img src="{{ asset('template/admin/assets/img/avatars/7.png') }}" alt="Avatar" class="rounded-circle">
-                  </li>
-                </ul>
-              </td>
-              <td><span class="badge bg-label-warning me-1">Pending</span></td>
-              <td>
-                <div class="dropdown">
-                  <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                    <i class="bx bx-dots-vertical-rounded"></i>
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-2"></i> Edit</a>
-                    <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-2"></i> Delete</a>
-                  </div>
-                </div>
-              </td>
+            <td>{{ $content->firstItem()+$loop->index}}</td>
+            <td>{{ $item->name }}</td>
+            <td>{{ $item->image }}</td>
+            <td>{{ $item->created_at }}</td>
+            <td>{{ $item->updated_at }}</td>
+            <td>
+              <a href="{{ route('adminpage.contect.edit',$item->id) }}"><i class='bx bxs-edit'>Edit</i></a>
+              <a href="{{ route('adminpage.contect.delete',$item->id) }}"><i class='bx bx-trash'>Delete</i></a>
+            </td>
             </tr>
+            @endforeach
           </tbody>
         </table>
       </div>
@@ -68,7 +48,7 @@
 
     <hr class="my-5">
 
-   
+    {{ $content->links('pagination::bootstrap-5') }}
 
 
   <div class="content-backdrop fade"></div>

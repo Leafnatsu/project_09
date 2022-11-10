@@ -16,7 +16,7 @@
                     <h5 class="card-header">Detail</h5>
                     <div class="card-body demo-vertical-spacing demo-only-element">
                       <div class="input-group">
-                        <form action="{{ route('adminpage.product.add') }}" method="post">
+                        <form action="{{ route('adminpage.background.add') }}" method="post">
                           @csrf
                         <input
                           type="text"
@@ -35,11 +35,7 @@
                       </div>
                       
                       <Button type="submit" value="บันทึก" class="btn btn-success mt-3" >บันทึก</Button>
-                      <a href="" class="btn btn-danger"> 
-     
-                        ลบ
-                        
-                          </a>
+                      <a href="{{ route('adminpage.background.adminbackground') }}" class="btn btn-danger mt-3 mx-2">ย้อนกลับ</a>
                     </div>
                   </div>
                 </div>

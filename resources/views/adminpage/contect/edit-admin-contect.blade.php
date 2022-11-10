@@ -16,12 +16,15 @@
                     <h5 class="card-header">Name</h5>
                     <div class="card-body demo-vertical-spacing demo-only-element">
                       <div class="input-group">
+                        <form action="{{ route('adminpage.contect.update',$content->id) }}" method="post">
+                          @csrf
                         <input
                           type="text"
                           class="form-control"
                           placeholder="Name"
                           aria-label="Name"
                           aria-describedby="basic-addon11"
+                          name="name" value="{{$content->name}}"
                         />
                       </div>
 
@@ -31,18 +34,11 @@
                         <label class="input-group-text" for="inputGroupFile02">Upload</label>
                       </div>
                       
-                      <a href="" class="btn btn-success"> 
-                        
-                        ตกลง
-                        
-                      </a>
-                      <a href="" class="btn btn-danger"> 
-                          
-                        ลบ
-                        
-                          </a>
+                      <Button type="submit" value="บันทึก" class="btn btn-success mt-3" >บันทึก</Button>
+                      <a href="{{ route('adminpage.contect.admincontect') }}" class="btn btn-danger mt-3 mx-2">ย้อนกลับ</a>
                     </div>
                   </div>
+                </form>
                 </div>
             </div>
             <!-- / Content -->

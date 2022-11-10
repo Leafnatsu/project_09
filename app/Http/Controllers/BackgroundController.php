@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Background;
+use App\Models\Backgrounds;
 use Illuminate\Http\Request;
 
 class BackgroundController extends Controller
@@ -16,7 +17,7 @@ class BackgroundController extends Controller
     {
         $this->middleware('auth');
     }
-
+    
     /**
      * Show the application dashboard.
      *
@@ -24,7 +25,8 @@ class BackgroundController extends Controller
      */
     public function index()
     {
-        return view('adminpage.background.adminbackground');
+        $background = Backgrounds::Paginate(4);
+        return view('adminpage.background.adminbackground',compact('background'));
     }
 
     public function from_add()
@@ -33,10 +35,30 @@ class BackgroundController extends Controller
     }
 
     public function add(Request $request){
-        $background = new Background();
-        $background->detail = $request->detail;
-        $background->save();
+        $backgrounds = new Backgrounds();
+        $backgrounds->detail = $request->detail;
+        $backgrounds->save();
         // toast('บันทีกข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.background.adminbackground');
+    }
+
+    public function edit($id){
+        $backgrounds = Backgrounds::find($id);
+        return view('adminpage.background.edit-admin-background',compact('backgrounds'));
+    }
+
+    public function update(Request $request, $id){
+        $backgrounds = Backgrounds::find($id);
+        $backgrounds->detail = $request->detail;
+        $backgrounds->update();
+        // toast('แก้ไขข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.background.adminbackground');
+    }
+
+    public function delete($id){
+        $backgrounds = Backgrounds::find($id);
+        $backgrounds->delete();
+        // toast('ลบข้อมูลสำเร็จ','success');
         return redirect()->route('adminpage.background.adminbackground');
     }
 

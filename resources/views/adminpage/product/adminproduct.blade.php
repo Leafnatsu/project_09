@@ -10,11 +10,6 @@
     ปุ่มเพิ่ม
 
       </a>
-      <a href="/admin/product/edit" class="btn btn-warning"> 
-     
-        แก้ไข
-      
-          </a>
       <!-- Basic Bootstrap Table -->
       <div class="card">
         <h5 class="card-header">Table Product</h5>
@@ -22,42 +17,33 @@
           <table class="table">
             <thead>
               <tr>
+                <th>No</th>
+                <th>Typeproduct</th>
                 <th>Name</th>
                 <th>Detail</th>
                 <th>Price</th>
                 <th>Image</th>
+                <th>created_at</th>
+                <th>updated_at</th>
               </tr>
             </thead>
             <tbody class="table-border-bottom-0">
+              @foreach ($product as $item)
               <tr>
-                <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong></td>
-                <td>Albert Cook</td>
-                <td>
-                  <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                    <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="" data-bs-original-title="Lilian Fuller">
-                      <img src="{{ asset('template/admin/assets/img/avatars/5.png') }}" alt="Avatar" class="rounded-circle">
-                    </li>
-                    <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="" data-bs-original-title="Sophia Wilkerson">
-                      <img src="{{ asset('template/admin/assets/img/avatars/6.png') }}" alt="Avatar" class="rounded-circle">
-                    </li>
-                    <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="" data-bs-original-title="Christina Parker">
-                      <img src="{{ asset('template/admin/assets/img/avatars/7.png') }}" alt="Avatar" class="rounded-circle">
-                    </li>
-                  </ul>
-                </td>
-                <td><span class="badge bg-label-primary me-1">Active</span></td>
-                <td>
-                  <div class="dropdown">
-                    <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown" aria-expanded="false">
-                      <i class="bx bx-dots-vertical-rounded"></i>
-                    </button>
-                    <div class="dropdown-menu" style="">
-                      <a class="dropdown-item" href="/admin/product/edit"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                      <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                    </div>
-                  </div>
-                </td>
+              <td>{{ $product->firstItem()+$loop->index}}</td>
+              <td>{{ $item->type_products->name }}</td>
+              <td>{{ $item->name }}</td>
+              <td>{{ $item->detail }}</td>
+              <td>{{ $item->price }}</td>
+              <td>{{ $item->image }}</td>
+              <td>{{ $item->created_at }}</td>
+              <td>{{ $item->updated_at }}</td>
+              <td>
+                <a href="{{ route('adminpage.product.edit',$item->id) }}"><i class='bx bxs-edit'>Edit</i></a>
+                <a href="{{ route('adminpage.product.delete',$item->id) }}"><i class='bx bx-trash'>Delete</i></a>
+              </td>
               </tr>
+              @endforeach
             </tbody>
           </table>
         </div>
@@ -66,7 +52,7 @@
 
       <hr class="my-5">
 
-     
+      {{ $product->links('pagination::bootstrap-5') }}
 
 
     <div class="content-backdrop fade"></div>

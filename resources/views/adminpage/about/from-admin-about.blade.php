@@ -35,11 +35,7 @@
                       </div>
                       
                       <Button type="submit" value="บันทึก" class="btn btn-success mt-3" >บันทึก</Button>
-                      <a href="" class="btn btn-danger"> 
-     
-                        ลบ
-                        
-                          </a>
+                      <a href="{{ route('adminpage.about.adminabout') }}" class="btn btn-danger mt-3 mx-2">ย้อนกลับ</a>
                     </div>
                   </div>
                 </form>

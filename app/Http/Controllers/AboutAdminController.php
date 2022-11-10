@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\About;
-use App\Models\AboutAdmin;
 use App\Models\Abouts;
 use Illuminate\Http\Request;
 
@@ -26,7 +24,8 @@ class AboutAdminController extends Controller
      */
     public function index()
     {
-        return view('adminpage.about.adminabout');
+        $abouts = Abouts::Paginate(4);
+        return view('adminpage.about.adminabout',compact('abouts'));
     }
 
     public function from_add()
@@ -39,6 +38,26 @@ class AboutAdminController extends Controller
         $about->name = $request->name;
         $about->save();
         // toast('บันทีกข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.about.adminabout');
+    }
+
+    public function edit($id){
+        $about = Abouts::find($id);
+        return view('adminpage.about.edit-admin-about',compact('about'));
+    }
+
+    public function update(Request $request, $id){
+        $about = Abouts::find($id);
+        $about->name = $request->name;
+        $about->update();
+        // toast('แก้ไขข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.about.adminabout');
+    }
+
+    public function delete($id){
+        $about = Abouts::find($id);
+        $about->delete();
+        // toast('ลบข้อมูลสำเร็จ','success');
         return redirect()->route('adminpage.about.adminabout');
     }
 
