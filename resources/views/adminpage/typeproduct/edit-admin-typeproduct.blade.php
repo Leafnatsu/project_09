@@ -16,7 +16,7 @@
                     <h5 class="card-header">Name</h5>
                     <div class="card-body demo-vertical-spacing demo-only-element">
                       <div class="input-group">
-                        <form action="{{ route('adminpage.type-product.update',$typeproduct->id) }}" method="post">
+                        <form action="{{ route('adminpage.type-product.update',$typeproduct->id) }}" method="post"enctype="multipart/form-data">
                           @csrf
                         <input
                           type="text"
@@ -30,7 +30,7 @@
 
                       <h5>Image</h5>
                       <div class="input-group">
-                        <input type="file" class="form-control" id="inputGroupFile02" />
+                        <input type="file" name="image" value="{{$typeproduct->image}}" class="form-control" id="inputGroupFile02" />
                         <label class="input-group-text" for="inputGroupFile02">Upload</label>
                       </div>
                       <Button type="submit" value="บันทึก" class="btn btn-success mt-3" >บันทึก</Button>

@@ -29,7 +29,9 @@
               <tr>
               <td>{{ $abouts->firstItem()+$loop->index}}</td>
               <td>{{ $item->name }}</td>
-              <td>{{ $item->image }}</td>
+              <td>
+                <img src="{{ asset('admin/upload/about/'.$item->image)}}" width="100px" height="80px" alt="">
+              </td>
               <td>{{ $item->created_at }}</td>
               <td>{{ $item->updated_at }}</td>
               <td>

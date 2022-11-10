@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\TypeProduct;
+use Illuminate\Support\Str;
+use Image;
+use File;
 
 class TypeProductController extends Controller
 {
@@ -36,6 +39,23 @@ class TypeProductController extends Controller
     public function add(Request $request){
         $type_product = new TypeProduct();
         $type_product->name = $request->name;
+
+        if ($request->hasFile('image')) {
+
+            $filename = Str::random(10) . '.' . $request->file('image')->getClientOriginalExtension();   //025G025365.jpg
+
+            $request->file('image')->move(public_path() . '/admin/upload/type_product/', $filename);
+
+            Image::make(public_path() . '/admin/upload/type_product/' . $filename);
+
+            $type_product->image = $filename;
+
+        } else {
+
+            $type_product->image = 'nopic.jpg';
+
+        }
+
         $type_product->save();
         // toast('บันทีกข้อมูลสำเร็จ','success');
         return redirect()->route('adminpage.type-product.adminproduct');
@@ -48,9 +68,38 @@ class TypeProductController extends Controller
 
     public function update(Request $request, $id){
         $type_product = TypeProduct::find($id);
+        if ($request->hasFile('image')) {
+
+            $type_product = TypeProduct::find($id);
+
+             // ลบรูปภาพ
+
+            if ($type_product->image != 'nopic.jpg') {
+
+                File::delete(public_path() . '/admin/upload/type_product/' . $type_product->image);
+
+            }
+
+            //เพิ่มรูปภาพ
+
+            $filename = Str::random(10) . '.' . $request->file('image')->getClientOriginalExtension();   //025G025365.jpg
+
+            $request->file('image')->move(public_path() . '/admin/upload/type_product/', $filename);
+
+            Image::make(public_path() . '/admin/upload/type_product/' . $filename);
+
+            $type_product->image = $filename;
+
+            //เพิ่มฟิล์ดในกรณีที่มีรูปภาพ
+
+            $type_product->name = $request->name;
+
+        } else{
         $type_product->name = $request->name;
         $type_product->update();
-        // toast('แก้ไขข้อมูลสำเร็จ','success');
+    }
+    // toast('แก้ไขข้อมูลสำเร็จ','success');
+        $type_product->update();
         return redirect()->route('adminpage.type-product.adminproduct');
     }
 

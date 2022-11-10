@@ -15,7 +15,7 @@
                     <div class="card mb-6">
                       <div class="card-body demo-vertical-spacing demo-only-element">
                         <div class="input-group">
-                          <form action="{{ route('adminpage.product.add') }}" method="post">
+                          <form action="{{ route('adminpage.product.add') }}" method="post" enctype="multipart/form-data">
                             @csrf
                         <h5 class="card-header">Typeproduct</h5>
                         <select name="id_type_product">
@@ -62,7 +62,7 @@
                           
                           <h5>Image</h5>
                           <div class="input-group">
-                            <input type="file" class="form-control" id="inputGroupFile02" />
+                            <input type="file"name="image" class="form-control" id="inputGroupFile02" />
                             <label class="input-group-text" for="inputGroupFile02">Upload</label>
                           </div>
                           
