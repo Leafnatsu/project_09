@@ -24,14 +24,20 @@ use Illuminate\Support\Facades\Route;
 
 
 //Start Promote//
- Route::view('/', 'promotepage.home')->name('promotepage.home');
- Route::view('/about', 'promotepage.about')->name('promotepage.about');
- Route::view('/menu', 'promotepage.menu')->name('promotepage.menu');
- Route::view('/hot', 'promotepage.hot')->name('promotepage.hot');
- Route::view('/contract', 'promotepage.contract')->name('promotepage.contract');
- Route::view('/info', 'promotepage.info')->name('promotepage.info');
- Route::view('/cart', 'promotepage.cart')->name('promotepage.cart');
- Route::view('/login', 'auth.login')->name('promotepage.login');
+//  Route::view('/', 'promotepage.home')->name('promotepage.home');
+//  Route::view('/about', 'promotepage.about')->name('promotepage.about');
+//  Route::view('/menu', 'promotepage.menu')->name('promotepage.menu');
+//  Route::view('/hot', 'promotepage.hot')->name('promotepage.hot');
+//  Route::view('/contract', 'promotepage.contract')->name('promotepage.contract');
+//  Route::view('/info', 'promotepage.info')->name('promotepage.info');
+
+Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name('promotepage.home');
+Route::get('/about', [App\Http\Controllers\IndexController::class, 'about'])->name('promotepage.about');
+Route::get('/menu', [App\Http\Controllers\IndexController::class, 'menu'])->name('promotepage.menu');
+Route::get('/contract', [App\Http\Controllers\IndexController::class, 'contract'])->name('promotepage.contract');
+Route::get('/info', [App\Http\Controllers\IndexController::class, 'info'])->name('promotepage.info');
+Route::view('/login', 'auth.login')->name('promotepage.login');
+
 
 //End Promote//
 

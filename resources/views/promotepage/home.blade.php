@@ -27,54 +27,22 @@
             <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
             <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
         </ol>
+        @foreach($backgrounds as $item)
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/BBTEA.jpg') }}  " alt="">
+                            <img class="img-fluid" src=" {{ asset('admin/upload/backgrounds/'.$item->image)}}  " alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>Bubble</b> <b>Tea</b></h1>
+                                <h1 class="h1 text-success"><b>{{ $item->detail }}</b> <b>Tea</b></h1>
                                 <h3 class="h2"></h3>
                                 <p>
-                                    ชมนมไข่มุก <a rel="sponsored"   target="_blank">Doracha</a> Bubble 
+                                    {{ $item->detail }} <a rel="sponsored"   target="_blank">Doracha</a> Bubble 
                                     Tea<a rel="sponsored"></a>
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/icedgreentealatte.jpg') }} " alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1 text-success"><b> Green Tea Latte</b></h1>
-                                ชมนมไข่มุก <a rel="sponsored"   target="_blank">Doracha</a> Bubble 
-                                    Tea<a rel="sponsored"></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src=" {{ asset('template/promote/assets/img/BBTEAAA.png') }} " alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1 text-success"><b>Milk Tea</b></h1>
-                                ชมนมไข่มุก <a rel="sponsored"   target="_blank">Doracha</a> Bubble 
-                                    Tea<a rel="sponsored"></a>
                             </div>
                         </div>
                     </div>
@@ -87,7 +55,9 @@
         <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
             <i class="fas fa-chevron-right"></i>
         </a>
+        
     </div>
+    @endforeach
     <!-- End Banner Hero -->
 
 
@@ -102,66 +72,41 @@
             </div>
         </div>
         <div class="row">
+            @foreach($typeproduct as $item)
             <div class="col-12 col-md-4 p-5 mt-3">
                 <br>
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/BBTEA.jpg') }} " class="rounded-circle img-fluid border" height="600"> </a>
-                <h5 class="text-center mt-3 mb-3">Bubble Tea</h5>
+                <a href="#"><img src="{{ asset('admin/upload/type_product/'.$item->image)}}" class="rounded-circle img-fluid border" height="600"> </a>
+                <h5 class="text-center mt-3 mb-3">{{ $item->name }}</h5>
                 <p class="text-center"><a class="btn btn-success">Buy</a></p>
             </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/tea.jpg') }} " class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Tea</h2>
-                <p class="text-center"><a class="btn btn-success">Buy</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/icedgreentealatte.jpg') }} " class="rounded-circle img-fluid border"></a>
-                <br>    
-                <h2 class="h5 text-center mt-3 mb-4     ">Green Tea</h2>
-                <p class="text-center"><a class="btn btn-success">Buy</a></p>
-            </div>
+            @endforeach 
         </div>
-        </section>
-        <section class="container py-5">
+    </section>
+    <section class="container py-5">
+    </div>
+</section>
+
+
+<!-- End Categories of The Month -->
+
+
+<!-- Start Featured Product -->
+<section class="bg-light">
+    <div class="container py-5">
+        <div class="row text-center py-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1"><b>Beverage</b></h1>
+                <p>
+                    เมนูแนะนำ
+                </p>
+            </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/Sodaw.jpg') }} " class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">Soda</h5>
-                <p class="text-center"><a class="btn btn-success">Buy</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/cf.png') }} " class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Coffee</h2>
-                <p class="text-center"><a class="btn btn-success">Buy</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src=" {{ asset('template/promote/assets/img/fries.jpg') }} " class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Snack</h2>
-                <p class="text-center"><a class="btn btn-success">Buy</a></p>
-            </div>
-        </div>
-        </section>
-
-        
-    <!-- End Categories of The Month -->
-
-
-    <!-- Start Featured Product -->
-    <section class="bg-light">
-        <div class="container py-5">
-            <div class="row text-center py-3">
-                <div class="col-lg-6 m-auto">
-                    <h1 class="h1"><b>Beverage</b></h1>
-                    <p>
-                        เมนูแนะนำ
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="{{ asset('template/promote/assets/img/BBTEAAA.png') }}" class="card-img-top" height="280" alt="..."> 
+            @foreach($product as $item)
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card h-100">
+                    <a href="shop-single.html">
+                            <img src="{{ asset('admin/upload/product/'.$item->image)}}" class="card-img-top" height="280" alt="..."> 
                         </a>
                         <div class="card-body">
                             <ul class="list-unstyled d-flex justify-content-between">
@@ -172,68 +117,18 @@
                                     <i class="text-warning fa fa-star"></i>
                                     <i class="text-warning fa fa-star"></i>
                                 </li>
-                                <li class="text-muted text-right">45THB</li>
+                                <li class="text-muted text-right">{{ $item->price }}</li>
                             </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Bubble Tea</a>
+                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">{{ $item->name }}</a>
                             <p class="card-text">
-                                ชานมไข่มุก
+                                {{ $item->detail }}
                             </p>
                             <p class="text-muted">Reviews (16)</p>
                             <a class="btn btn-success">Buy</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="{{ asset('template/promote/assets/img/soda1.jpg') }}" class="card-img-top"alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    
-                                </li>
-                                <li class="text-muted text-right">40THB</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Smoothie</a>
-                            <p class="card-text">
-                                น้ำปั่น
-                            </p>
-                            <p class="text-muted">Reviews (37)</p>
-                            <a class="btn btn-success">Buy</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.html">
-                            <img src="{{ asset('template/promote/assets/img/icedgreentealatte.jpg') }}" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">40THB</li>
-                            </ul>
-                            <a href="shop-single.html" class="h2 text-decoration-none text-dark">Iced Green Tea Latte</a>
-                            <p class="card-text">
-                                ชาเขียว
-                            </p>
-                            <p class="text-muted">Reviews (34)</p>
-                            <a class="btn btn-success">Buy</a>
-                        </div>
-                    </div>
-                </div>
+                @endforeach 
             </div>
         </div>
     </section>
