@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('type_product', function (Blueprint $table) {
+        Schema::create('type_products', function (Blueprint $table) {
             $table->id();
             $table->string('name')->nullabale();
             $table->string('image')->nullabale();

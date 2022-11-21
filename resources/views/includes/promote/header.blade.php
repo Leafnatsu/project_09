@@ -64,7 +64,6 @@
                     <a class="nav-icon position-relative text-decoration-none" href="/login">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
-                        <h6>Login/Register</h6>
                     </a>
                     
                  </div>
