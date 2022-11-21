@@ -13,7 +13,7 @@ class IndexController extends Controller
     public function index()
     {
         $backgrounds = Backgrounds::all();
-        $product = Product::all();
+        $product = Product::limit(3)->get();
         $typeproduct = TypeProduct::all();
 
         return view('promotepage.home',compact('backgrounds','product','typeproduct'));
