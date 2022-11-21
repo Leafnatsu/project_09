@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,11 +41,7 @@ Route::view('/login', 'auth.login')->name('promotepage.login');
 
 
 //End Promote//
-
 Auth::routes();
-
-
-
 
 //Start Admin//
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
