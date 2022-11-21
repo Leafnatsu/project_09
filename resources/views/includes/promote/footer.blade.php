@@ -8,7 +8,7 @@
                 <ul class="list-unstyled text-light footer-link-list">
                     <li>
                         <i class="fas fa-map-marker-alt fa-fw"></i>
-                        315 ถ. จรัญสนิทวงศ์ แขวง บางอ้อ เขตบางพลัด กรุงเทพมหานคร 10700
+                        315/293 ถ.จรัญสนิทวงศ์ แขวง บางอ้อ เขตบางพลัด กรุงเทพมหานคร 10700
                     </li>
                     <li>
                         <i class="fa fa-phone fa-fw"></i>

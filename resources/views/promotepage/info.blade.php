@@ -36,7 +36,7 @@
 
 <div class="mapouter">
     <div class="gmap_canvas"><iframe style='display: block; margin: 100 auto;'  class="gmap_iframe" position frameborder="0" scrolling="no" marginheight="" marginwidth="0" 
-            src="https://maps.google.com/maps?width=800px&amp;height=600&amp;hl=en&amp;q=315 ถ. จรัญสนิทวงศ์ แขวง บางอ้อ เขตบางพลัด กรุงเทพมหานคร 10700&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+            src="https://maps.google.com/maps?width=800px&amp;height=600&amp;hl=en&amp;q=315/293 ถ.จรัญสนิทวงศ์ แขวง บางอ้อ เขตบางพลัด กรุงเทพมหานคร 10700&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
             href="https://mcpenation.com/">MCPE Nation</a></div></div>
     <style>
         .mapouter {
