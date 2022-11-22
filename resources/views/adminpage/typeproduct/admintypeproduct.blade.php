@@ -35,8 +35,8 @@
               <td>{{ $item->created_at }}</td>
               <td>{{ $item->updated_at }}</td>
               <td>
-                <a href="{{ route('adminpage.type-product.edit',$item->id) }}"><i class='bx bxs-edit'>Edit</i></a>
-                <a href="{{ route('adminpage.type-product.delete',$item->id) }}"><i class='bx bx-trash'>Delete</i></a>
+                <a href="{{ route('adminpage.type-product.edit',$item->id) }}"><i class='bx bxs-edit btn btn-warning'>Edit</i></a>
+                <a href="{{ route('adminpage.type-product.delete',$item->id) }}"><i class='bx bx-trash btn btn-danger'>Delete</i></a>
               </td>
               </tr>
               @endforeach

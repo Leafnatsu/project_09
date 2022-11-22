@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('image')->nullabale();
             $table->string('detail')->nullabale();
-            $table->integer('created_by')->comment('user ที่เพิ่ม');
+            $table->integer('created_by')->nullable()->comment('user ที่เพิ่ม');
             $table->integer('updated_by')->nullable()->comment('user ที่แก้ไข');
             $table->integer('deleted_by')->nullable()->comment('user ที่ลบ');
             $table->timestamps();

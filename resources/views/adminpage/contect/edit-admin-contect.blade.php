@@ -15,9 +15,9 @@
                   <div class="card mb-6">
                     <h5 class="card-header">Name</h5>
                     <div class="card-body demo-vertical-spacing demo-only-element">
-                      <div class="input-group">
-                        <form action="{{ route('adminpage.contect.update',$content->id) }}" method="post"enctype="multipart/form-data">
-                          @csrf
+                      <form action="{{ route('adminpage.contect.update',$content->id) }}" method="post"enctype="multipart/form-data">
+                        @csrf
+                        <div class="input-group">
                         <input
                           type="text"
                           class="form-control"

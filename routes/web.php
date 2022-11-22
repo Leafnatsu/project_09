@@ -39,7 +39,6 @@ Route::get('/contract', [App\Http\Controllers\IndexController::class, 'contract'
 Route::get('/info', [App\Http\Controllers\IndexController::class, 'info'])->name('promotepage.info');
 Route::view('/login', 'auth.login')->name('promotepage.login');
 
-
 //End Promote//
 Auth::routes();
 
