@@ -31,7 +31,7 @@
               @foreach ($user as $item)
               <tr>
               <td>{{ $user->firstItem()+$loop->index}}</td>
-              <td>{{ $item->name }}</td>
+              <td>{{ $item->username }}</td>
               <td>{{ $item->email }}</td>
               <td>{{ $item->address }}</td>
               <td>{{ $item->password }}</td>

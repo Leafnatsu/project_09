@@ -29,9 +29,8 @@ class IndexController extends Controller
     {
         $product = Product::all();
 
-        return view('promotepage.menu');
+        return view('promotepage.menu',compact('product'));
     }
-    
     public function contract()
     {
 
