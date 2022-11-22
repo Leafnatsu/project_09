@@ -119,7 +119,7 @@
                                 </li>
                                 <li class="text-muted text-right">{{ $item->price }}</li>
                             </ul>
-                        <a>{{ $item->name }}</a>
+                            <a>{{ $item->name }}</a>
                             <p class="card-text">
                                 {{ $item->detail }}
                             </p>
@@ -131,8 +131,28 @@
                 @endforeach
             </div>
         </div>
-</section>
-<!-- End Featured Product -->
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="{{ asset('template/promote/assets/img/history.jpg')}} " class="img-fluid rounded-start" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">HISTORY OF BUBBLE TEA</h5>
+                        <p class="card-text">ร้านชาชุน ฉุ่ยถังในเมืองไถจง น่าจะเป็นร้านแรกที่คิดค้นเมนูชาไข่มุกขึ้นมา
+                            เมื่อปี 1988 ขณะที่กำลังประชุมอยู่นั้น คุณหลินชิ่วฮุย (ผู้จัดการฝ่ายพัฒนาผลิตภัณฑ์)
+                            ได้เทขนมหวานชิ้นเล็ก ๆ ลงไปในชา ทุกคนในห้องประชุมเห็นว่าน่าสนใจ จึงทำออกมาขาย ปรากฏว่า
+                            ยอดขายดีมาก ทำลายสถิติเครื่องดื่มชนิดอื่น ๆ บ้างก็ว่า ชาไข่มุกน่าจะมีที่มาจากร้านชาหานหลิน
+                            ที่เมืองไถหนาน ประเทศไต้หวัน ของนายถัวซ่งเหอ เขาใส่เม็ดสาคูสีขาวลงไปในชา
+                            ทำให้มันเหมือนไข่มุก เป็นที่มาของคำว่า "ชาไข่มุก" หลังจากนั้นไม่นาน
+                            หานหลินเปลี่ยนสีสาคูจากสีขาวเป็นสีดำแบบที่นิยมกันในปัจจุบัน ช่วงปี 1990
+                            เครื่องดื่มชนิดนี้เป็นที่นิยมมากในเอเชียตะวันออก และ เอเชียตะวันออกเฉียงใต้</p>
+                        <p class="card-text"><small class="text-muted">แหล่งอ้างอิงจากเว็บไซต์ https://www.sanook.com</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Featured Product -->
 
 
-@stop
+        @stop
